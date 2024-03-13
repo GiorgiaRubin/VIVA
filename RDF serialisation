@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:agrelon="https://d-nb.info/standards/elementset/agrelon#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:frbroo="http://iflastandards.info/ns/fr/frbr/frbroo/"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:fabio="http://purl.org/spar/fabio/"
+   xmlns:ecrm="http:erlangen-crm.org/current/"
+>
+    <rdf:Description rdf:about="https://aeneidbnfms.org/IVbook_Aeneid_bnfita590">
+        <rdf:type rdf:resource="http://iflastandards.info/ns/fr/frbr/frbroo/F23_Expression_Fragment"/>
+        <frbroo:R15_is_fragment_of rdf:resource="https://aeneid.org/Aeneid_bnfita590"/> 
+    </rdf:Description>
+    
+    <rdf:Description rdf:about="https://aeneid.org/Aeneid_bnfita590">
+        <owl:sameAs rdf:resource="https://gallica.bnf.fr/ark:/12148/btv1b8433319z"/>
+        <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Expression"/>
+        <frbroo:work rdf:resource="https://aeneidbnfms.org/Aeneid_work"/>
+        <dcterms:creator rdf:resource="https://aeneid.org/Andrea_Lancia"/>
+        <fabio:hasPublicationYear>14th century a.C</fabio:hasPublicationYear>
+        <ecrm:P55_has_current_location>Bibliotheque nationale de France, Paris, France</ecrm:P55_has_current_location>
+        <rdfs:label xml:lang="vernacular">Aeneid ms. BnF italien 590</rdfs:label>
+        <dcterms:title xml:lang="italian">Eneide</dcterms:title>
+    </rdf:Description>
+    
+    <rdf:Description rdf:about="https://aeneid.org/Andrea_Lancia">
+        <dcterms:description>person</dcterms:description>
+        <dcterms:subject rdf:resource="https://www.wikidata.org/wiki/Q5"/>
+        <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q3615796"/>
+        <frbroo:R17_created rdf:resource="https://aeneid.org/Aeneid_bnfita590"/>
+        <rdfs:label xml:lang="italian">Andrea Lancia</rdfs:label>
+    </rdf:Description>
+    
+    <rdf:Description rdf:about="https://aeneidbnfms.org/Aeneid_work">
+        <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q60220"/>
+        <rdf:type rdf:resource="http://purl.org/spar/fabio/Work"/>
+        <dcterms:creator rdf:resource="https://aeneid.org/Virgil"/>
+        <fabio:hasPublicationYear>31-19 b.C</fabio:hasPublicationYear>
+        <rdfs:label xml:lang="english">Aeneid</rdfs:label>
+        <dcterms:title xml:lang="latin">Aeneis</dcterms:title>
+    </rdf:Description>
+    
+    <rdf:Description rdf:about="https://aeneid.org/Virgil">
+        <dcterms:description>person</dcterms:description>
+        <dcterms:subject rdf:resource="https://www.wikidata.org/wiki/Q5"/>
+        <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q1398"/>
+        <frbroo:R17_created rdf:resource="https://aeneidbnfms.org/Aeneid_work"/>
+        <rdfs:label xml:lang="english">Virgil</rdfs:label>
+    </rdf:Description>
+  
+  <rdf:Description rdf:about="https://aeneidbnfms.org/text/Aeneas-come-back-to-his-mates-to-conclude-the-preparations">
+    <rdf:type rdf:resource="http://iflastandards.info/ns/fr/frbr/frbroo/F23_Expression_Fragment"/>
+    <frbroo:R15i_is_fragment_of rdf:resource="https://aeneidbnfms.org/IVbook_Aeneid_bnfita590"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://aeneidbnfms.org/text/Dido-sends-Anna-to-Aeneas-to-convince-him-to-stay">
+    <rdf:type rdf:resource="http://iflastandards.info/ns/fr/frbr/frbroo/F23_Expression_Fragment"/>
+    <frbroo:R15i_is_fragment_of rdf:resource="https://aeneidbnfms.org/IVbook_Aeneid_bnfita590"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://aeneidbnfms.org/person/Dido">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E21_Person"/>
+    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q905162"/>
+    <rdfs:label xml:lang="latin">Dido</rdfs:label>
+    <dcterms:isReferencedBy rdf:resource="https://aeneidbnfms.org/text/Burning-love-of-Dido-for-Aeneas"/>
+    <dcterms:isReferencedBy rdf:resource="https://aeneidbnfms.org/text/Offering-to-the-Gods-by-Dido"/>
+    <dcterms:isReferencedBy rdf:resource="https://aeneidbnfms.org/text/Juno-and-Venus-plan-to-unite-lovers"/>
+    <dcterms:isReferencedBy rdf:resource="https://aeneidbnfms.org/text/Dido-and-Aeneas-take-refuge-in-the-cave"/>
+    <dcterms:isReferencedBy rdf:resource="https://aeneidbnfms.org/text/Fame-flies-from-city-to-city-causing-chaos"/>
+    <dcterms:isReferencedBy rdf:resource="https://aeneidbnfms.org/text/Preparation-of-Aeneas-to-leave-Carthage"/>
+    <dcterms:isReferencedBy rdf:resource="https://aeneidbnfms.org/text/Omen-of-Dido"/>
+    <dcterms:isReferencedBy rdf:resource="https://aeneidbnfms.org/text/Aeneas-come-back-to-his-mates-to-conclude-the-preparations"/>
+    <dcterms:isReferencedBy rdf:resource="https://aeneidbnfms.org/text/Dido-sends-Anna-to-Aeneas-to-convince-him-to-stay"/>
+    <dcterms:isReferencedBy rdf:resource="https://aeneidbnfms.org/text/Dido-prepares-herself-to-die"/>
+    <dcterms:isReferencedBy rdf:resource="https://aeneidbnfms.org/text/Night-fall"/>
+    <dcterms:isReferencedBy rdf:resource="https://aeneidbnfms.org/text/Mercury-orders-Aeneas-to-definitely-leave-Carthage"/>
+    <dcterms:isReferencedBy rdf:resource="https://aeneidbnfms.org/text/Suicide-of-Dido"/>
+    <dcterms:isReferencedBy rdf:resource="https://aeneidbnfms.org/text/Yris-cuts-the-hair-of-Dido-leaving-her-to-die"/>
+    <dcterms:description>person</dcterms:description>
+    <dcterms:subject rdf:resource="https://www.wikidata.org/wiki/Q5"/>
+    <agrelon:hasSister rdf:resource="https://aeneidbnfms.org/Anna"/>
+    <agrelon:hasLover rdf:resource="https://aeneidbnfms.org/Aeneas"/>
+    <agrelon:hasHusband rdf:resource="https://aeneidbnfms.org/Sychaei"/>
+    <agrelon:hasKingdom rdf:resource="https://aeneidbnfms.org/Carthage"/>
+    <agrelon:hasMates rdf:resource="https://aeneidbnfms.org/Mates-of-Dido"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://aeneidbnfms.org/place/Carthage">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
+    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q6343"/>
+    <rdfs:label xml:lang="english">Carthage</rdfs:label>
+    <dcterms:isReferencedBy rdf:resource="https://aeneidbnfms.org/text/Mercury-admonishes-Aeneas"/>
+    <dcterms:isReferencedBy rdf:resource="https://aeneidbnfms.org/text/Suicide-of-Dido"/>
+    <dcterms:description>old-place</dcterms:description>
+    <dcterms:subject rdf:resource="https://www.wikidata.org/wiki/Q15661340"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://aeneidbnfms.org/place/Libya">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
+    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q948"/>
+    <rdfs:label xml:lang="latin">Libya</rdfs:label>
+    <dcterms:isReferencedBy rdf:resource="https://aeneidbnfms.org/text/Juno-and-Venus-plan-to-unite-lovers"/>
+    <dcterms:isReferencedBy rdf:resource="https://aeneidbnfms.org/text/Fame-flies-from-city-to-city-causing-chaos"/>
+    <dcterms:isReferencedBy rdf:resource="https://aeneidbnfms.org/text/Mercury-admonishes-Aeneas"/>
+    <dcterms:description>old-place</dcterms:description>
+    <dcterms:subject rdf:resource="https://www.wikidata.org/wiki/Q15661340"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://aeneidbnfms.org/person/Iulo">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E21_Person"/>
+    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q655566"/>
+    <rdfs:label xml:lang="latin">Iulo</rdfs:label>
+    <dcterms:isReferencedBy rdf:resource="https://aeneidbnfms.org/text/Mercury-admonishes-Aeneas"/>
+    <dcterms:isReferencedBy rdf:resource="https://aeneidbnfms.org/text/Omen-of-Dido"/>
+    <dcterms:isReferencedBy rdf:resource="https://aeneidbnfms.org/text/Suicide-of-Dido"/>
+    <dcterms:description>person</dcterms:description>
+    <dcterms:subject rdf:resource="https://www.wikidata.org/wiki/Q5"/>
+    <agrelon:hasFather rdf:resource="https://aeneidbnfms.org/Aeneas"/>
+    <agrelon:hasGrandfather rdf:resource="https://aeneidbnfms.org/Anchisae"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://aeneidbnfms.org/person/Iuno">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E21_Person"/>
+    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q125046"/>
+    <rdfs:label xml:lang="latin">Iuno</rdfs:label>
+    <dcterms:isReferencedBy rdf:resource="https://aeneidbnfms.org/text/Juno-and-Venus-plan-to-unite-lovers"/>
+    <dcterms:isReferencedBy rdf:resource="https://aeneidbnfms.org/text/Suicide-of-Dido"/>
+    <dcterms:isReferencedBy rdf:resource="https://aeneidbnfms.org/text/Yris-cuts-the-hair-of-Dido-leaving-her-to-die"/>
+    <dcterms:description>ancient-roman-god</dcterms:description>
+    <dcterms:subject rdf:resource="https://www.wikidata.org/wiki/Q11688446"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://aeneidbnfms.org/person/Anna">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E21_Person"/>
+    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q559304"/>
+    <rdfs:label xml:lang="latin">Anna</rdfs:label>
+    <dcterms:isReferencedBy rdf:resource="https://aeneidbnfms.org/text/Burning-love-of-Dido-for-Aeneas"/>
+    <dcterms:isReferencedBy rdf:resource="https://aeneidbnfms.org/text/Dido-sends-Anna-to-Aeneas-to-convince-him-to-stay"/>
+    <dcterms:isReferencedBy rdf:resource="https://aeneidbnfms.org/text/Dido-prepares-herself-to-die"/>
+    <dcterms:isReferencedBy rdf:resource="https://aeneidbnfms.org/text/Night-fall"/>
+    <dcterms:isReferencedBy rdf:resource="https://aeneidbnfms.org/text/Suicide-of-Dido"/>
+    <dcterms:isReferencedBy rdf:resource="https://aeneidbnfms.org/text/Yris-cuts-the-hair-of-Dido-leaving-her-to-die"/>
+    <dcterms:description>person</dcterms:description>
+    <dcterms:subject rdf:resource="https://www.wikidata.org/wiki/Q5"/>
+    <agrelon:hasSister rdf:resource="https://aeneidbnfms.org/Dido"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://aeneidbnfms.org/text/Fame-flies-from-city-to-city-causing-chaos">
+    <rdf:type rdf:resource="http://iflastandards.info/ns/fr/frbr/frbroo/F23_Expression_Fragment"/>
+    <frbroo:R15i_is_fragment_of rdf:resource="https://aeneidbnfms.org/IVbook_Aeneid_bnfita590"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://aeneidbnfms.org/person/Iuppiter">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E21_Person"/>
+    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q4649"/>
+    <rdfs:label xml:lang="latin">Iuppiter</rdfs:label>
+    <dcterms:isReferencedBy rdf:resource="https://aeneidbnfms.org/text/Burning-love-of-Dido-for-Aeneas"/>
+    <dcterms:isReferencedBy rdf:resource="https://aeneidbnfms.org/text/Fame-flies-from-city-to-city-causing-chaos"/>
+    <dcterms:isReferencedBy rdf:resource="https://aeneidbnfms.org/text/Omen-of-Dido"/>
+    <dcterms:isReferencedBy rdf:resource="https://aeneidbnfms.org/text/Suicide-of-Dido"/>
+    <dcterms:description>ancient-roman-god</dcterms:description>
+    <dcterms:subject rdf:resource="https://www.wikidata.org/wiki/Q11688446"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://aeneidbnfms.org/person/Proserpina">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E21_Person"/>
+    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q14515330"/>
+    <rdfs:label xml:lang="latin">Proserpina</rdfs:label>
+    <dcterms:isReferencedBy rdf:resource="https://aeneidbnfms.org/text/Yris-cuts-the-hair-of-Dido-leaving-her-to-die"/>
+    <dcterms:description>ancient-roman-god</dcterms:description>
+    <dcterms:subject rdf:resource="https://www.wikidata.org/wiki/Q11688446"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://aeneidbnfms.org/person/Mates-of-Aeneas">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E21_Person"/>
+    <rdfs:label xml:lang="english">Mates of Aeneas</rdfs:label>
+    <dcterms:isReferencedBy rdf:resource="https://aeneidbnfms.org/text/Preparation-of-Aeneas-to-leave-Carthage"/>
+    <dcterms:isReferencedBy rdf:resource="https://aeneidbnfms.org/text/Omen-of-Dido"/>
+    <dcterms:isReferencedBy rdf:resource="https://aeneidbnfms.org/text/Mercury-orders-Aeneas-to-definitely-leave-Carthage"/>
+    <dcterms:description>group-of-people</dcterms:description>
+    <dcterms:subject rdf:resource="https://www.wikidata.org/wiki/Q16334295"/>
+    <agrelon:hasMates rdf:resource="https://aeneidbnfms.org/Aeneas"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://aeneidbnfms.org/text/Mercury-orders-Aeneas-to-definitely-leave-Carthage">
+    <rdf:type rdf:resource="http://iflastandards.info/ns/fr/frbr/frbroo/F23_Expression_Fragment"/>
+    <frbroo:R15i_is_fragment_of rdf:resource="https://aeneidbnfms.org/IVbook_Aeneid_bnfita590"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://aeneidbnfms.org/text/Offering-to-the-Gods-by-Dido">
+    <rdf:type rdf:resource="http://iflastandards.info/ns/fr/frbr/frbroo/F23_Expression_Fragment"/>
+    <frbroo:R15i_is_fragment_of rdf:resource="https://aeneidbnfms.org/IVbook_Aeneid_bnfita590"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://aeneidbnfms.org/person/Mercurius">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E21_Person"/>
+    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q1150"/>
+    <rdfs:label xml:lang="latin">Mercurius</rdfs:label>
+    <dcterms:isReferencedBy rdf:resource="https://aeneidbnfms.org/text/Fame-flies-from-city-to-city-causing-chaos"/>
+    <dcterms:isReferencedBy rdf:resource="https://aeneidbnfms.org/text/Omen-of-Dido"/>
+    <dcterms:isReferencedBy rdf:resource="https://aeneidbnfms.org/text/Mercury-orders-Aeneas-to-definitely-leave-Carthage"/>
+    <dcterms:description>ancient-roman-god</dcterms:description>
+    <dcterms:subject rdf:resource="https://www.wikidata.org/wiki/Q11688446"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://aeneidbnfms.org/person/Aeneas">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E21_Person"/>
+    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q82732"/>
+    <rdfs:label xml:lang="latin">Aeneas</rdfs:label>
+    <dcterms:isReferencedBy rdf:resource="https://aeneidbnfms.org/text/Burning-love-of-Dido-for-Aeneas"/>
+    <dcterms:isReferencedBy rdf:resource="https://aeneidbnfms.org/text/Juno-and-Venus-plan-to-unite-lovers"/>
+    <dcterms:isReferencedBy rdf:resource="https://aeneidbnfms.org/text/Fame-flies-from-city-to-city-causing-chaos"/>
+    <dcterms:isReferencedBy rdf:resource="https://aeneidbnfms.org/text/Mercury-admonishes-Aeneas"/>
+    <dcterms:isReferencedBy rdf:resource="https://aeneidbnfms.org/text/Preparation-of-Aeneas-to-leave-Carthage"/>
+    <dcterms:isReferencedBy rdf:resource="https://aeneidbnfms.org/text/Omen-of-Dido"/>
+    <dcterms:isReferencedBy rdf:resource="https://aeneidbnfms.org/text/Aeneas-come-back-to-his-mates-to-conclude-the-preparations"/>
+    <dcterms:isReferencedBy rdf:resource="https://aeneidbnfms.org/text/Dido-sends-Anna-to-Aeneas-to-convince-him-to-stay"/>
+    <dcterms:isReferencedBy rdf:resource="https://aeneidbnfms.org/text/Dido-prepares-herself-to-die"/>
+    <dcterms:isReferencedBy rdf:resource="https://aeneidbnfms.org/text/Mercury-orders-Aeneas-to-definitely-leave-Carthage"/>
+    <dcterms:isReferencedBy rdf:resource="https://aeneidbnfms.org/text/Suicide-of-Dido"/>
+    <dcterms:description>person</dcterms:description>
+    <dcterms:subject rdf:resource="https://www.wikidata.org/wiki/Q5"/>
+    <agrelon:hasLover rdf:resource="https://aeneidbnfms.org/Dido"/>
+    <agrelon:hasSon rdf:resource="https://aeneidbnfms.org/Iulo"/>
+    <agrelon:hasFather rdf:resource="https://aeneidbnfms.org/Anchisae"/>
+    <agrelon:hasMother rdf:resource="https://aeneidbnfms.org/Venus"/>
+    <agrelon:hasMates rdf:resource="https://aeneidbnfms.org/Mates-of-Aeneas"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://aeneidbnfms.org/person/Sychaei">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E21_Person"/>
+    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q2060196"/>
+    <rdfs:label xml:lang="latin">Sychaei</rdfs:label>
+    <dcterms:isReferencedBy rdf:resource="https://aeneidbnfms.org/text/Burning-love-of-Dido-for-Aeneas"/>
+    <dcterms:isReferencedBy rdf:resource="https://aeneidbnfms.org/text/Dido-prepares-herself-to-die"/>
+    <dcterms:isReferencedBy rdf:resource="https://aeneidbnfms.org/text/Suicide-of-Dido"/>
+    <dcterms:description>person</dcterms:description>
+    <dcterms:subject rdf:resource="https://www.wikidata.org/wiki/Q5"/>
+    <agrelon:hasWife rdf:resource="https://aeneidbnfms.org/Dido"/>
+    <agrelon:hasNanny rdf:resource="https://aeneidbnfms.org/Nutrix"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://aeneidbnfms.org/place/Italy">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
+    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q38"/>
+    <rdfs:label xml:lang="english">Italy</rdfs:label>
+    <dcterms:isReferencedBy rdf:resource="https://aeneidbnfms.org/text/Juno-and-Venus-plan-to-unite-lovers"/>
+    <dcterms:isReferencedBy rdf:resource="https://aeneidbnfms.org/text/Fame-flies-from-city-to-city-causing-chaos"/>
+    <dcterms:isReferencedBy rdf:resource="https://aeneidbnfms.org/text/Mercury-admonishes-Aeneas"/>
+    <dcterms:isReferencedBy rdf:resource="https://aeneidbnfms.org/text/Omen-of-Dido"/>
+    <dcterms:description>current-place</dcterms:description>
+    <dcterms:subject rdf:resource="https://www.wikidata.org/wiki/Q6256"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://aeneidbnfms.org/person/Tyrios">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E21_Person"/>
+    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q1126715"/>
+    <rdfs:label xml:lang="latin">Tyrios</rdfs:label>
+    <dcterms:isReferencedBy rdf:resource="https://aeneidbnfms.org/text/Juno-and-Venus-plan-to-unite-lovers"/>
+    <dcterms:isReferencedBy rdf:resource="https://aeneidbnfms.org/text/Omen-of-Dido"/>
+    <dcterms:isReferencedBy rdf:resource="https://aeneidbnfms.org/text/Suicide-of-Dido"/>
+    <dcterms:description>group-of-people</dcterms:description>
+    <dcterms:subject rdf:resource="https://www.wikidata.org/wiki/Q16334295"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://aeneidbnfms.org/person/Iris">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E21_Person"/>
+    <rdfs:label xml:lang="latin">Iris</rdfs:label>
+    <dcterms:isReferencedBy rdf:resource="https://aeneidbnfms.org/text/Yris-cuts-the-hair-of-Dido-leaving-her-to-die"/>
+    <dcterms:description>ancient-roman-god</dcterms:description>
+    <dcterms:subject rdf:resource="https://www.wikidata.org/wiki/Q11688446"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://aeneidbnfms.org/text/Juno-and-Venus-plan-to-unite-lovers">
+    <rdf:type rdf:resource="http://iflastandards.info/ns/fr/frbr/frbroo/F23_Expression_Fragment"/>
+    <frbroo:R15i_is_fragment_of rdf:resource="https://aeneidbnfms.org/IVbook_Aeneid_bnfita590"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://aeneidbnfms.org/person/Apollo">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E21_Person"/>
+    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q37340"/>
+    <rdfs:label xml:lang="latin">Apollo</rdfs:label>
+    <dcterms:isReferencedBy rdf:resource="https://aeneidbnfms.org/text/Omen-of-Dido"/>
+    <dcterms:description>ancient-roman-god</dcterms:description>
+    <dcterms:subject rdf:resource="https://www.wikidata.org/wiki/Q11688446"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://aeneidbnfms.org/person/Fama">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E21_Person"/>
+    <owl:sameAs rdf:resource="https://dbpedia.org/page/Pheme"/>
+    <rdfs:label xml:lang="latin">Fama</rdfs:label>
+    <dcterms:isReferencedBy rdf:resource="https://aeneidbnfms.org/text/Dido-and-Aeneas-take-refuge-in-the-cave"/>
+    <dcterms:isReferencedBy rdf:resource="https://aeneidbnfms.org/text/Fame-flies-from-city-to-city-causing-chaos"/>
+    <dcterms:isReferencedBy rdf:resource="https://aeneidbnfms.org/text/Omen-of-Dido"/>
+    <dcterms:description>allegory-god</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://aeneidbnfms.org/person/Mates-of-Dido">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E21_Person"/>
+    <rdfs:label xml:lang="english">Mates of Dido</rdfs:label>
+    <dcterms:isReferencedBy rdf:resource="https://aeneidbnfms.org/text/Suicide-of-Dido"/>
+    <dcterms:description>group-of-people</dcterms:description>
+    <dcterms:subject rdf:resource="https://www.wikidata.org/wiki/Q16334295"/>
+    <agrelon:hasMates rdf:resource="https://aeneidbnfms.org/Dido"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://aeneidbnfms.org/person/Iarba">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E21_Person"/>
+    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q1655701"/>
+    <rdfs:label xml:lang="latin">Iarba</rdfs:label>
+    <dcterms:isReferencedBy rdf:resource="https://aeneidbnfms.org/text/Fame-flies-from-city-to-city-causing-chaos"/>
+    <dcterms:description>person</dcterms:description>
+    <dcterms:subject rdf:resource="https://www.wikidata.org/wiki/Q5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://aeneidbnfms.org/text/Dido-prepares-herself-to-die">
+    <rdf:type rdf:resource="http://iflastandards.info/ns/fr/frbr/frbroo/F23_Expression_Fragment"/>
+    <frbroo:R15i_is_fragment_of rdf:resource="https://aeneidbnfms.org/IVbook_Aeneid_bnfita590"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://aeneidbnfms.org/person/Phrygios">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E21_Person"/>
+    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q7188180"/>
+    <rdfs:label xml:lang="latin">Phrygios</rdfs:label>
+    <dcterms:isReferencedBy rdf:resource="https://aeneidbnfms.org/text/Juno-and-Venus-plan-to-unite-lovers"/>
+    <dcterms:description>group-of-people</dcterms:description>
+    <dcterms:subject rdf:resource="https://www.wikidata.org/wiki/Q16334295"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://aeneidbnfms.org/person/Anchisae">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E21_Person"/>
+    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q211953"/>
+    <rdfs:label xml:lang="latin">Anchisae</rdfs:label>
+    <dcterms:isReferencedBy rdf:resource="https://aeneidbnfms.org/text/Omen-of-Dido"/>
+    <dcterms:description>person</dcterms:description>
+    <dcterms:subject rdf:resource="https://www.wikidata.org/wiki/Q5"/>
+    <agrelon:hasSon rdf:resource="https://aeneidbnfms.org/Aeneas"/>
+    <agrelon:hasGrandson rdf:resource="https://aeneidbnfms.org/Iulo"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://aeneidbnfms.org/person/Nutrix">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E21_Person"/>
+    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q936969"/>
+    <rdfs:label xml:lang="latin">Nutrix</rdfs:label>
+    <dcterms:isReferencedBy rdf:resource="https://aeneidbnfms.org/text/Suicide-of-Dido"/>
+    <dcterms:description>person</dcterms:description>
+    <dcterms:subject rdf:resource="https://www.wikidata.org/wiki/Q5"/>
+    <agrelon:hasChild rdf:resource="https://aeneidbnfms.org/Sychaei"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://aeneidbnfms.org/person/Venus">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E21_Person"/>
+    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q47652"/>
+    <rdfs:label xml:lang="latin">Venus</rdfs:label>
+    <dcterms:isReferencedBy rdf:resource="https://aeneidbnfms.org/text/Juno-and-Venus-plan-to-unite-lovers"/>
+    <dcterms:description>ancient-roman-god</dcterms:description>
+    <dcterms:subject rdf:resource="https://www.wikidata.org/wiki/Q11688446"/>
+    <agrelon:hasSon rdf:resource="https://aeneidbnfms.org/Aeneas"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://aeneidbnfms.org/person/Sacerdos">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E21_Person"/>
+    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q6116659"/>
+    <rdfs:label xml:lang="latin">Sacerdos</rdfs:label>
+    <dcterms:isReferencedBy rdf:resource="https://aeneidbnfms.org/text/Dido-prepares-herself-to-die"/>
+    <dcterms:description>person</dcterms:description>
+    <dcterms:subject rdf:resource="https://www.wikidata.org/wiki/Q5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://aeneidbnfms.org/text/Preparation-of-Aeneas-to-leave-Carthage">
+    <rdf:type rdf:resource="http://iflastandards.info/ns/fr/frbr/frbroo/F23_Expression_Fragment"/>
+    <frbroo:R15i_is_fragment_of rdf:resource="https://aeneidbnfms.org/IVbook_Aeneid_bnfita590"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://aeneidbnfms.org/text/Omen-of-Dido">
+    <rdf:type rdf:resource="http://iflastandards.info/ns/fr/frbr/frbroo/F23_Expression_Fragment"/>
+    <frbroo:R15i_is_fragment_of rdf:resource="https://aeneidbnfms.org/IVbook_Aeneid_bnfita590"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://aeneidbnfms.org/place/Sidonia">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
+    <rdfs:label xml:lang="latin">Sidonia</rdfs:label>
+    <dcterms:isReferencedBy rdf:resource="https://aeneidbnfms.org/text/Night-fall"/>
+    <dcterms:description>old-place</dcterms:description>
+    <dcterms:subject rdf:resource="https://www.wikidata.org/wiki/Q15661340"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://aeneidbnfms.org/person/Castitade">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E21_Person"/>
+    <owl:sameAs rdf:resource="https://dbpedia.org/page/Chastity"/>
+    <rdfs:label xml:lang="latin">Castitade</rdfs:label>
+    <dcterms:isReferencedBy rdf:resource="https://aeneidbnfms.org/text/Burning-love-of-Dido-for-Aeneas"/>
+    <dcterms:description>allegory-god</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://aeneidbnfms.org/text/Yris-cuts-the-hair-of-Dido-leaving-her-to-die">
+    <rdf:type rdf:resource="http://iflastandards.info/ns/fr/frbr/frbroo/F23_Expression_Fragment"/>
+    <frbroo:R15i_is_fragment_of rdf:resource="https://aeneidbnfms.org/IVbook_Aeneid_bnfita590"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://aeneidbnfms.org/person/Numidio">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E21_Person"/>
+    <rdfs:label xml:lang="latin">Numidio</rdfs:label>
+    <dcterms:isReferencedBy rdf:resource="https://aeneidbnfms.org/text/Night-fall"/>
+    <dcterms:description>person</dcterms:description>
+    <dcterms:subject rdf:resource="https://www.wikidata.org/wiki/Q5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://aeneidbnfms.org/text/Night-fall">
+    <rdf:type rdf:resource="http://iflastandards.info/ns/fr/frbr/frbroo/F23_Expression_Fragment"/>
+    <frbroo:R15i_is_fragment_of rdf:resource="https://aeneidbnfms.org/IVbook_Aeneid_bnfita590"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://aeneidbnfms.org/text/Suicide-of-Dido">
+    <rdf:type rdf:resource="http://iflastandards.info/ns/fr/frbr/frbroo/F23_Expression_Fragment"/>
+    <frbroo:R15i_is_fragment_of rdf:resource="https://aeneidbnfms.org/IVbook_Aeneid_bnfita590"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://aeneidbnfms.org/text/Dido-and-Aeneas-take-refuge-in-the-cave">
+    <rdf:type rdf:resource="http://iflastandards.info/ns/fr/frbr/frbroo/F23_Expression_Fragment"/>
+    <frbroo:R15i_is_fragment_of rdf:resource="https://aeneidbnfms.org/IVbook_Aeneid_bnfita590"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://aeneidbnfms.org/text/Burning-love-of-Dido-for-Aeneas">
+    <rdf:type rdf:resource="http://iflastandards.info/ns/fr/frbr/frbroo/F23_Expression_Fragment"/>
+    <frbroo:R15i_is_fragment_of rdf:resource="https://aeneidbnfms.org/IVbook_Aeneid_bnfita590"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://aeneidbnfms.org/text/Mercury-admonishes-Aeneas">
+    <rdf:type rdf:resource="http://iflastandards.info/ns/fr/frbr/frbroo/F23_Expression_Fragment"/>
+    <frbroo:R15i_is_fragment_of rdf:resource="https://aeneidbnfms.org/IVbook_Aeneid_bnfita590"/>
+  </rdf:Description>
+</rdf:RDF>
