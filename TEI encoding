@@ -1,0 +1,4331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://aeneidbnfms.org" xml:id="IVbook_Aeneid_bnfita590">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Aeneid, IV book. XIV century vernacular reduction</title>
+        <author>Andrea Lancia</author>
+        <respStmt>
+          <resp>Digitally encoded by</resp>
+          <name>Giorgia Rubin</name>
+          <name>Federico Boschetti</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Ca'Foscari University of Venice, VeDPH</publisher>
+        <date>February 2024</date>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Distributed
+            under a Creative Commons Attribution-NonCommercial-ShareAlike (CC BY-NC-SA) Licence</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <settlement corresp="https://www.wikidata.org/wiki/Q90">Paris, France</settlement>
+            <repository corresp="https://www.wikidata.org/wiki/Q193563">BnF, Bibliothèque Nationale de France</repository>
+            <idno>BnF italien 590</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <title>Reduction of the original latin text of the fourth book of Virgil's Aeneid, translated into the vernacular</title>
+              <author>Friar Anastase (Copyst Reducer)</author>
+            </msItem>
+          </msContents>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <standOff>
+    <listPerson type="person" corresp="https://www.wikidata.org/wiki/Q5">
+      <person xml:id="Dido" sameAs="https://www.wikidata.org/wiki/Q905162">
+        <persName xml:lang="latin">Dido</persName>
+      </person>
+      <person xml:id="Anna" sameAs="https://www.wikidata.org/wiki/Q559304">
+        <persName xml:lang="latin">Anna</persName>
+      </person>
+      <person xml:id="Sychaei" sameAs="https://www.wikidata.org/wiki/Q2060196">
+        <persName xml:lang="latin">Sychaei</persName>
+      </person>
+      <person xml:id="Iulo" sameAs="https://www.wikidata.org/wiki/Q655566">
+        <persName xml:lang="latin">Iulo</persName>
+      </person>
+      <person xml:id="Aeneas" sameAs="https://www.wikidata.org/wiki/Q82732">
+        <persName xml:lang="latin">Aeneas</persName>
+      </person>
+      <person xml:id="Anchisae" sameAs="https://www.wikidata.org/wiki/Q211953">
+        <persName xml:lang="latin">Anchisae</persName>
+      </person>
+      <person xml:id="Iarba" sameAs="https://www.wikidata.org/wiki/Q1655701">
+        <persName xml:lang="latin">Iarba</persName>
+      </person>
+      <person xml:id="Numidio">
+        <persName xml:lang="latin">Numidio</persName>
+      </person>
+      <person xml:id="Sacerdos" sameAs="https://www.wikidata.org/wiki/Q6116659">
+        <persName xml:lang="latin">Sacerdos</persName>
+      </person>
+      <person xml:id="Nutrix" sameAs="https://www.wikidata.org/wiki/Q936969">
+        <persName xml:lang="latin">Nutrix</persName>
+      </person>
+    </listPerson>
+    <listPerson type="ancient-roman-god" corresp="https://www.wikidata.org/wiki/Q11688446">
+      <person xml:id="Iuppiter" sameAs="https://www.wikidata.org/wiki/Q4649">
+        <persName xml:lang="latin">Iuppiter</persName>
+      </person>
+      <person xml:id="Iuno" sameAs="https://www.wikidata.org/wiki/Q125046">
+        <persName xml:lang="latin">Iuno</persName>
+      </person>
+      <person xml:id="Venus" sameAs="https://www.wikidata.org/wiki/Q47652">
+        <persName xml:lang="latin">Venus</persName>
+      </person>
+      <person xml:id="Mercurius" sameAs="https://www.wikidata.org/wiki/Q1150">
+        <persName xml:lang="latin">Mercurius</persName>
+      </person>
+      <person xml:id="Apollo" sameAs="https://www.wikidata.org/wiki/Q37340">
+        <persName xml:lang="latin">Apollo</persName>
+      </person>
+      <person xml:id="Iris">
+        <persName xml:lang="latin">Iris</persName>
+      </person>
+      <person xml:id="Proserpina" sameAs="https://www.wikidata.org/wiki/Q14515330">
+        <persName xml:lang="latin">Proserpina</persName>
+      </person>
+    </listPerson>
+    <listPerson type="group-of-people" corresp="https://www.wikidata.org/wiki/Q16334295">
+      <person xml:id="Mates-of-Dido">
+        <persName xml:lang="english">Mates of Dido</persName>
+      </person>
+      <person xml:id="Mates-of-Aeneas">
+        <persName xml:lang="english">Mates of Aeneas</persName>
+      </person>
+      <person xml:id="Phrygios" sameAs="https://www.wikidata.org/wiki/Q7188180">
+        <persName xml:lang="latin">Phrygios</persName>
+      </person>
+      <person xml:id="Tyrios" sameAs="https://www.wikidata.org/wiki/Q1126715">
+        <persName xml:lang="latin">Tyrios</persName>
+      </person>
+    </listPerson>
+    <listPerson type="allegory-god">
+      <person xml:id="Fama" sameAs="https://dbpedia.org/page/Pheme">
+        <persName xml:lang="latin">Fama</persName>
+      </person>
+      <person xml:id="Castitade" sameAs="https://dbpedia.org/page/Chastity">
+        <persName xml:lang="latin">Castitade</persName>
+      </person>
+    </listPerson>
+    <listPlace type="old-place" corresp="https://www.wikidata.org/wiki/Q15661340">
+      <place xml:id="Sidonia">
+        <placeName xml:lang="latin">Sidonia</placeName>
+      </place>
+      <place xml:id="Carthage" sameAs="https://www.wikidata.org/wiki/Q6343">
+        <placeName xml:lang="english">Carthage</placeName>
+      </place>
+      <place xml:id="Libya" sameAs="https://www.wikidata.org/wiki/Q948">
+        <placeName xml:lang="latin">Libya</placeName>
+      </place>
+    </listPlace>
+    <listPlace type="current-place" corresp="https://www.wikidata.org/wiki/Q6256">
+      <place xml:id="Italy" sameAs="https://www.wikidata.org/wiki/Q38">
+        <placeName xml:lang="english">Italy</placeName>
+      </place>
+    </listPlace>
+    <listRelation>
+      <relation xml:id="rel01" name="hasSister" mutual="#Dido #Anna"/>
+      <relation xml:id="rel02" name="hasLover" mutual="#Dido #Aeneas"/>
+      <relation xml:id="rel03" name="hasHusband" active="#Dido" passive="#Sychaei"/>
+      <relation xml:id="rel04" name="hasWife" active="#Sychaei" passive="#Dido"/>
+      <relation xml:id="rel05" name="hasKingdom" active="#Dido" passive="#Carthage"/>
+      <relation xml:id="rel06" name="hasQueen" active="#Carthage" passive="#Dido"/>
+      <relation xml:id="rel07" name="hasSon" active="#Aeneas" passive="#Iulo"/>
+      <relation xml:id="rel08" name="hasFather" active="#Iulo" passive="#Aeneas"/>
+      <relation xml:id="rel09" name="hasSon" active="#Anchisae" passive="#Aeneas"/>
+      <relation xml:id="rel10" name="hasFather" active="#Aeneas" passive="#Anchisae"/>
+      <relation xml:id="rel11" name="hasMother" active="#Aeneas" passive="#Venus"/>
+      <relation xml:id="rel12" name="hasSon" active="#Venus" passive="#Aeneas"/>
+      <relation xml:id="rel13" name="hasNanny" active="#Sychaei" passive="#Nutrix"/>
+      <relation xml:id="rel14" name="hasChild" active="#Nutrix" passive="#Sychaei"/>
+      <relation xml:id="rel15" name="hasMates" mutual="#Aeneas #Mates-of-Aeneas"/>
+      <relation xml:id="rel16" name="hasMates" mutual="#Dido #Mates-of-Dido"/>
+      <relation xml:id="rel17" name="hasGrandfather" active="#Iulo" passive="#Anchisae"/>
+      <relation xml:id="rel18" name="hasGrandson" active="#Anchisae" passive="#Iulo"/>
+    </listRelation>
+  </standOff>
+  <facsimile>
+    <surface>
+      <graphic
+        url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8433319z/f39/full/full/0/default.jpg"/>
+      <graphic
+        url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8433319z/f40/full/full/0/default.jpg"/>
+      <graphic
+        url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8433319z/f41/full/full/0/default.jpg"/>
+      <graphic
+        url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8433319z/f42/full/full/0/default.jpg"/>
+      <graphic
+        url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8433319z/f43/full/full/0/default.jpg"/>
+      <graphic
+        url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8433319z/f44/full/full/0/default.jpg"/>
+      <graphic
+        url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8433319z/f45/full/full/0/default.jpg"/>
+      <graphic
+        url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8433319z/f46/full/full/0/default.jpg"/>
+      <graphic
+        url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8433319z/f47/full/full/0/default.jpg"/>
+    </surface>
+  </facsimile>
+  <text>
+    <body>
+      <milestone unit="folio" n="16r"/>
+      <pb facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8433319z/f39/full/full/0/default.jpg"
+        n="16r"/>
+      <milestone unit="column" n="1"/>
+      <div xml:id="p1" n="1">
+        <p xml:id="Burning-love-of-Dido-for-Aeneas">
+          <s xml:id="s1.1.1" corresp="#l1">
+            <milestone unit="line" corresp="71bd4a80" n="1"/>
+            <w norm="Ma">M <milestone unit="line" corresp="ee32882e" n="2"/> A</w>
+            <w>la</w>
+            <w>Reyna</w>
+            <persName ref="#Dido">dido</persName>
+            <w>gia</w>
+            <milestone unit="line" corresp="b0a1ed23" n="3"/>
+            <w>lungam̃te</w>
+            <w>ferita</w>
+            <w>di</w>
+            <milestone unit="line" corresp="f77873c2" n="4"/>
+            <w>grãde</w>
+            <w>ſollicitudĩe</w>
+            <w>la</w>
+            <milestone unit="line" corresp="23f11709" n="5"/>
+            <w>piaga</w>
+            <w>damore</w>
+            <w norm="lũgamente">lũga <milestone unit="line" corresp="72da64f1" n="6"/> mente</w>
+            <w>nutrita</w>
+            <w>⁊</w>
+            <w>e</w>
+            <w>pͬͤſa</w>
+            <w>di</w>
+            <w>cieco</w>
+            <milestone unit="line" corresp="83da5c60" n="7"/>
+            <w>fuoco</w>
+            <w>de</w>
+            <w>amore.</w>
+          </s>
+          <s xml:id="s1.1.2" corresp="#l5">
+            <w>Et</w>
+            <w>reuolgendo</w>
+            <milestone unit="line" corresp="5c0e097e" n="1"/>
+            <w>la</w>
+            <w>nocte</w>
+            <w>molte</w>
+            <w>coſe</w>
+            <w>nel</w>
+            <w>ſuo</w>
+            <w norm="animo">a <milestone unit="line" corresp="1110309b" n="2"/> nimo</w>
+            <w>la</w>
+            <w>maitina</w>
+            <w>coſi</w>
+            <w>fauella</w>
+            <milestone unit="line" corresp="865072d9" n="3"/>
+            <w>ala</w>
+            <w>ſerocchia.</w>
+          </s>
+          <s xml:id="s1.1.3" corresp="#l9">
+            <w>O</w>
+            <persName ref="#Anna">anna</persName>
+            <w>ſorore</w>
+            <milestone unit="line" corresp="cc592634" n="1"/>
+            <w>mia</w>
+            <w>che</w>
+            <w>coſe</w>
+            <w>dubioſe</w>
+            <w>ne</w>
+            <w>li</w>
+            <w norm="ſõni">ſõ <milestone unit="line" corresp="062fa1c1" n="2"/> ni</w>
+            <w>mi</w>
+            <w>appariſcono</w>
+            <w>come</w>
+            <w>grãde</w>
+            <milestone unit="line" corresp="75829e8b" n="3"/>
+            <persName ref="#Aeneas">hoſte</persName>
+            <w>qui</w>
+            <w>uiene</w>
+            <w>ali</w>
+            <w>nͦ̾ͭri</w>
+            <w norm="alberghi">alber <milestone unit="line" corresp="66edf76c" n="4"/> ghi.</w>
+          </s>
+          <s xml:id="s1.1.4" corresp="#l11">
+            <w>Come</w>
+            <w>ſi</w>
+            <w>moſtra</w>
+            <w>elli</w>
+            <w norm="nella">nel <milestone unit="line" corresp="c8bd3735" n="1"/> la</w>
+            <w>faccia</w>
+            <w>come</w>
+            <w>forte</w>
+            <w>ne</w>
+            <w>laĩo</w>
+            <w>⁊</w>
+            <milestone unit="line" corresp="d6b69fdc" n="2"/>
+            <w>ſofferente</w>
+            <w>ne</w>
+            <w>le</w>
+            <w>bactaglie.</w>
+          </s>
+          <s xml:id="s1.1.5" corresp="#l12">
+            <w>Jo</w>
+            <milestone unit="line" corresp="9e41aa54" n="1"/>
+            <w>credo</w>
+            <w>certam̃te</w>
+            <w>chelli</w>
+            <w>ſia</w>
+            <w>de</w>
+            <w>la</w>
+            <milestone unit="line" corresp="60e131cd" n="2"/>
+            <w>ſchiacta</w>
+            <w>deli</w>
+            <w>dij</w>
+            <w>la</w>
+            <w>paura</w>
+            <w norm="dimoſtra">di <milestone unit="line" corresp="58de5269" n="3"/> moſtra</w>
+            <w>li</w>
+            <w>captiui</w>
+            <w>animi.</w>
+          </s>
+          <s xml:id="s1.1.6" corresp="#l13">
+            <w>Oy</w>
+            <milestone unit="line" corresp="80d81063" n="1"/>
+            <w>me</w>
+            <w>ĩ</w>
+            <w>che</w>
+            <w>fortuna</w>
+            <w>fo</w>
+            <w>coſtui</w>
+            <w norm="giunto">gi <milestone unit="line" corresp="3bd74709" n="2"/> unto.</w>
+          </s>
+          <s xml:id="s1.1.7" corresp="#l14">
+            <w>Et</w>
+            <w>che</w>
+            <w>bactaglie</w>
+            <w norm="ſmiſurate">ſmiſu</w>
+            <milestone unit="line" corresp="a03c499b" n="1"/>
+            <w>rate</w>
+            <w>raccõtaua</w>
+            <w>elli.</w>
+          </s>
+          <s xml:id="s1.1.8" corresp="#l15">
+            <w>Se</w>
+            <w>colui</w>
+            <milestone unit="line" corresp="44eb39f9" n="1"/>
+            <w>nõ</w>
+            <w>foſſe</w>
+            <w>ficto</w>
+            <w>nel</w>
+            <w>mio</w>
+            <w>animo</w>
+            <milestone unit="line" corresp="610dc282" n="2"/>
+            <w>⁊</w>
+            <w>nõ</w>
+            <w>ſteſſe</w>
+            <w>fermiſſimo.</w>
+          </s>
+          <s xml:id="s1.1.9" corresp="#l16">
+            <w>Jo</w>
+            <w>nõ</w>
+            <milestone unit="line" corresp="95852336" n="1"/>
+            <w>mi</w>
+            <w>vorrei</w>
+            <w>cõuĩgere</w>
+            <w>cõ</w>
+            <w norm="legamͤ̃di">legamͤ̃ <milestone unit="line" corresp="f0a436fb" n="2"/> di</w>
+            <w>matrimonio</w>
+            <w>cõ</w>
+            <w>alcuno</w>
+            <w>hõ.</w>
+          </s>
+          <s xml:id="s1.1.10" corresp="#l17">
+            <milestone unit="line" corresp="28abef02" n="1"/>
+            <w>Poy</w>
+            <w>chel</w>
+            <w>pͬͥmo</w>
+            <w>amore</w>
+            <w>mi</w>
+            <w>fal</w>
+            <milestone unit="line" corresp="5fd74ead" n="2"/>
+            <w>lio</w>
+            <w norm="ĩgãnata">ĩ gãnata</w>
+            <w>ꝑ</w>
+            <w>la</w>
+            <w>morte</w>
+            <w>aqͧͤſta</w>
+            <milestone unit="line" corresp="d0a856d8" n="3"/>
+            <w>ſola</w>
+            <w>colpa</w>
+            <w>potrei</w>
+            <w>io</w>
+            <w>ĩchinarͤ.</w>
+          </s>
+          <s xml:id="s1.1.11" corresp="#l20">
+            <milestone unit="line" corresp="ae8adef9" n="1"/>
+            <w>Certo</w>
+            <w>da</w>
+            <w>poy</w>
+            <w>la</w>
+            <w>morte</w>
+            <w>di</w>
+            <persName ref="#Sychaei">Sicheo</persName>
+            <milestone unit="line" corresp="0bd4ad93" n="2"/>
+            <w>coſtui</w>
+            <w>piegde</w>
+            <w>li</w>
+            <w>miei</w>
+            <w>ſenſi</w>
+            <w>⁊</w>
+            <milestone unit="line" corresp="9d77ff0e" n="3"/>
+            <w>il</w>
+            <w>uano</w>
+            <w>animo</w>
+            <w>reſtrẽſe</w>
+            <w>io</w>
+            <w norm="cognoſco">co <milestone unit="line" corresp="699e8983" n="4"/> gnoſco</w>
+            <w>lorme</w>
+            <w>della</w>
+            <w>uecchia</w>
+            <milestone unit="line" corresp="e0a5b17d" n="5"/>
+            <w>fiãma.</w>
+          </s>
+          <s xml:id="s1.1.12" corresp="#l24">
+            <w>Ma</w>
+            <w>io</w>
+            <w>deſidero</w>
+            <w>prima</w>
+            <milestone unit="line" corresp="152976b0" n="1"/>
+            <w>che</w>
+            <w>la</w>
+            <w>tͤra</w>
+            <w>mi</w>
+            <w>inioctiſca</w>
+            <w>o</w>
+            <w>che</w>
+            <milestone unit="column" n="2"/>
+            <milestone unit="line" corresp="2319603c" n="2"/>
+            <w>lo</w>
+            <w>oĩpotẽte</w>
+            <w>padre</w>
+            <persName ref="#Iuppiter">Joue</persName>
+            <w>mi</w>
+            <w norm="cacci">cac <milestone unit="line" corresp="b82bcc70" n="3"/> ci</w>
+            <w>colla</w>
+            <w>fulmine</w>
+            <w>tra</w>
+            <w>lombre</w>
+            <milestone unit="line" corresp="c3d55989" n="4"/>
+            <w>del</w>
+            <w>inferno</w>
+            <w>cheio</w>
+            <persName ref="#Castitade">caſtitade</persName>
+            <milestone unit="line" corresp="3bee58df" n="5"/>
+            <w>rõpa</w>
+            <w>te</w>
+            <w>⁊</w>
+            <w>le</w>
+            <w>toe</w>
+            <w>ragioni</w>
+            <w norm="riſolua">riſol <milestone unit="line" corresp="1545d333" n="6"/>
+              <w>ua</w>
+              <w>la</w>
+              <w>caſtita</w>
+              <milestone unit="line" corresp="4210c383" n="7"/> ua</w>
+            <w>colui</w>
+            <w>me</w>
+            <w>abbia</w>
+            <w>ſeco</w>
+            <w>il</w>
+            <w norm="qͧͣle">qͧͣ <milestone unit="line" corresp="3aaaf82f" n="8"/> le</w>
+            <w>mi</w>
+            <w>ſe</w>
+            <w>ꝯuĩſe</w>
+            <w>ꝑ</w>
+            <w>li</w>
+            <w>pͬͥmi</w>
+            <w>amori.</w>
+          </s>
+          <s xml:id="s1.1.13" corresp="#l30">
+            <milestone unit="line" corresp="ea171d10" n="1"/>
+            <w>Coſi</w>
+            <w>parlato</w>
+            <w>il</w>
+            <w>ſeno</w>
+            <w>empieo</w>
+            <w>di</w>
+            <milestone unit="line" corresp="36841428" n="2"/>
+            <w>lacͬͥme.</w>
+          </s>
+        </p>
+      </div>
+      <div xml:id="p2" n="2">
+        <p xml:id="Burning-love-of-Dido-for-Aeneas-1">
+          <s xml:id="s1.2.0">
+            <w>Il</w>
+            <w>cõſiglio</w>
+            <w>che</w>
+            <persName ref="#Anna">Anna</persName>
+            <milestone unit="line" corresp="68d7718a"/>
+            <w>diede</w>
+            <w>a</w>
+            <persName ref="#Dido">Dido</persName>
+            <w>⁊</w>
+            <w>del</w>
+            <w>ſacͬͥfitio</w>
+            <w norm="chelle">chel <milestone unit="line" corresp="936e7207"/> le</w>
+            <w>fecero</w>
+            <w>alli</w>
+            <w>dij.</w>
+          </s>
+          <s xml:id="s1.2.1" corresp="#l31">
+            <milestone unit="line" corresp="10a15880" n="1"/>
+            <persName ref="#Anna">Anna</persName>
+            <milestone unit="line" corresp="289fd80c" n="2"/>
+            <w>dice.</w>
+          </s>
+          <s xml:id="s1.2.2" corresp="#l31">
+            <w>O</w>
+            <w>ſerocchia</w>
+            <w>piu</w>
+            <milestone unit="line" corresp="4c676716" n="1"/>
+            <w>amata</w>
+            <w>dame</w>
+            <w>che</w>
+            <w>la</w>
+            <w>uita</w>
+            <milestone unit="line" corresp="6e2b1b4e" n="2"/>
+            <w>conſolala</w>
+            <w>⁊</w>
+            <w>cõfortala</w>
+            <w>chella</w>
+            <milestone unit="line" corresp="6437f584" n="3"/>
+            <w>uſi</w>
+            <w>matrimonio</w>
+            <w>dicẽno</w>
+            <w>nõ</w>
+            <milestone unit="line" corresp="fef2f896" n="4"/>
+            <w>curare</w>
+            <w>lanimo</w>
+            <w>⁊</w>
+            <w>nõ</w>
+            <w>curare</w>
+            <w>la</w>
+            <milestone unit="line" corresp="7274ce9f" n="5"/>
+            <w>cẽnere</w>
+            <w>de</w>
+            <w>morti.</w>
+          </s>
+          <s xml:id="s1.2.3" corresp="#l33">
+            <w>Et</w>
+            <w>ꝑo</w>
+            <w>che</w>
+            <w>nõ</w>
+            <milestone unit="line" corresp="ec218f3c" n="1"/>
+            <w>auea</w>
+            <w>figlioli</w>
+            <w>⁊</w>
+            <w>ꝑo</w>
+            <w>che</w>
+            <w norm="dagẽte">dagẽ <milestone unit="line" corresp="9755c22c" n="2"/> te</w>
+            <w>crudele</w>
+            <w>era</w>
+            <w>intoͬniata.</w>
+          </s>
+          <s xml:id="s1.2.4" corresp="#l45">
+            <w>Et</w>
+            <milestone unit="line" corresp="b85f2819" n="1"/>
+            <w>ꝑo</w>
+            <w>che</w>
+            <w>forſe</w>
+            <persName ref="#Aeneas">coſtui</persName>
+            <w norm="guidandolo">guidando <milestone unit="line" corresp="00c2c5ff" n="2"/> lo</w>
+            <w>li</w>
+            <w>dij</w>
+            <w>arriuœ</w>
+            <w>ale</w>
+            <w>nͦ̾ͭre</w>
+            <w norm="ꝯtrate">ꝯtra <milestone unit="line" corresp="319f528f" n="3"/> te.</w>
+          </s>
+        </p>
+        <p xml:id="Offering-to-the-Gods-by-Dido">
+          <s xml:id="s1.2.5" corresp="#l54">
+            <w>Et</w>
+            <w>ꝯ</w>
+            <w>queſte</w>
+            <w>parole</w>
+            <w>acceſe</w>
+            <milestone unit="line" corresp="025e812b" n="1"/>
+            <w>lanimo</w>
+            <w>di</w>
+            <persName ref="#Dido">dido</persName>
+            <w>⁊</w>
+            <w>ĩfiãmo</w>
+            <w norm="damore">da <milestone unit="line" corresp="70cb88ee" n="2"/> more</w>
+            <w>7</w>
+            <w>ala</w>
+            <w>dobioſam̃te</w>
+            <w norm="diedi">die <milestone unit="line" corresp="62d90ab3" n="3"/> di</w>
+            <w>ſꝑanḉa</w>
+            <w>⁊</w>
+            <w>cacciœ</w>
+            <w>la</w>
+            <w norm="uergõya">uergõ <milestone unit="line" corresp="27b34e3b" n="4"/> ya</w>
+            <w>⁊</w>
+            <w>nel</w>
+            <w>ꝯm̃ḉam̃to</w>
+            <w>uẽneno</w>
+            <milestone unit="line" corresp="00c8684e" n="5"/>
+            <w>alli</w>
+            <w>altari</w>
+            <w>⁊</w>
+            <w>ĩpongonui</w>
+            <w norm="ſacͬͥficij">ſacͬͥ <milestone unit="line" corresp="52482be1" n="6"/> ficij.</w>
+          </s>
+          <s xml:id="s1.2.6" corresp="#l65">
+            <w>Oyme</w>
+            <w>deli</w>
+            <w>diuini</w>
+            <w norm="mentie">men <milestone unit="line" corresp="b62f13e0" n="1"/> tie</w>
+            <w>lignorãti</w>
+            <w>de</w>
+            <w>qͧͤllo</w>
+            <w>che</w>
+            <w>e</w>
+            <w>a</w>
+            <milestone unit="line" corresp="2d4f64b0" n="2"/>
+            <w>uenire.</w>
+          </s>
+          <s xml:id="s1.2.7" corresp="#l65">
+            <w>Che</w>
+            <w>giouano</w>
+            <w>loro</w>
+            <w>li</w>
+            <milestone unit="line" corresp="bf5bdd31" n="1"/>
+            <w>tẽpi</w>
+            <w>ĩ</w>
+            <w>fine</w>
+            <w>che</w>
+            <w>la</w>
+            <w>morbida</w>
+            <milestone unit="line" corresp="21299fed" n="2"/>
+            <w>fiãma</w>
+            <w>manuca</w>
+            <w>le</w>
+            <w>medolla</w>
+            <milestone unit="line" corresp="a760eed1" n="3"/>
+            <w>⁊</w>
+            <w>che</w>
+            <w>la</w>
+            <w>ſecreta</w>
+            <w>ferita</w>
+            <w>de</w>
+            <w norm="amore">a <milestone unit="line" corresp="52464f88" n="4"/> more</w>
+            <w>uiue</w>
+            <w>nel</w>
+            <w>pecto.</w>
+          </s>
+          <s xml:id="s1.2.8" corresp="#l68">
+            <w norm="Ardeua">Arde <milestone unit="line" corresp="2c33244c" n="1"/> ua</w>
+            <w>la</w>
+            <w>diſuentorata</w>
+            <persName ref="#Dido">Dido</persName>
+            <w>⁊</w>
+            <milestone unit="folio" n="16v"/>
+            <pb
+              facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8433319z/f40/full/full/0/default.jpg"
+              n="16v"/>
+            <milestone unit="column" n="1"/>
+            <milestone unit="line" corresp="2b3f2dd7" n="2"/>
+            <w>ſmaniãdo</w>
+            <w>cerca</w>
+            <w>tucta</w>
+            <w>la</w>
+            <w>cita</w>
+            <milestone unit="line" corresp="d1b68803" n="3"/>
+            <w>de</w>
+            <w>ſi</w>
+            <w>come</w>
+            <w>ceruia</w>
+            <w>paſſata</w>
+            <w>da</w>
+            <milestone unit="line" corresp="64d8c6d2" n="4"/>
+            <w>la</w>
+            <w>ſaecta.</w>
+          </s>
+        </p>
+      </div>
+      <div xml:id="p3" n="3">
+        <p xml:id="Juno-and-Venus-plan-to-unite-lovers">
+          <s xml:id="s2.3.0">
+            <milestone unit="line" corresp="32914cc2"/>
+            <w>Come</w>
+            <persName ref="#Iuno">Juno</persName>
+            <w>parlaœ</w>
+            <milestone unit="line" corresp="f9b55058"/>
+            <w>a</w>
+            <persName ref="#Venus">Venus</persName>
+            <w>⁊</w>
+            <w>ordinareno</w>
+            <w>il</w>
+            <w norm="matͬͥmonio">matͬͥ <milestone unit="line" corresp="4d9dec9c"/> monio</w>
+            <w>da</w>
+            <w>Dido</w>
+            <w>ad</w>
+            <w>Enea.</w>
+          </s>
+          <s xml:id="s2.3.1" corresp="#l90">
+            <milestone unit="line" corresp="41a65568" n="1"/>
+            <w norm="Poy">P <milestone unit="line" corresp="0a8d05ea" n="2"/> Oy</w>
+            <w>che</w>
+            <persName ref="#Iuno">Juno</persName>
+            <w>cegnobbe</w>
+            <w norm="qͧͤſte">qͧͤ <milestone unit="line" corresp="1b4bd8dc" n="3"/> ſte</w>
+            <w>coſe</w>
+            <w>coſi</w>
+            <w>parlo</w>
+            <w>a</w>
+            <persName ref="#Venus">Venͧ̾.</persName>
+          </s>
+          <s xml:id="s2.3.2" corresp="#l99">
+            <milestone unit="line" corresp="97e092aa" n="1"/>
+            <w>Tu</w>
+            <w>ai</w>
+            <w>qͧͤſto</w>
+            <w>che</w>
+            <w>tu</w>
+            <w>deſideri</w>
+            <milestone unit="line" corresp="8e71a502" n="2"/>
+            <w>la</w>
+            <w>pacḉa</w>
+            <w>de</w>
+            <persName ref="#Dido">Dido</persName>
+            <w>arde</w>
+            <w>ella</w>
+            <w norm="tͬͣſſe">tͬͣ <milestone unit="line" corresp="26384a23" n="3"/> ſſe</w>
+            <w>il</w>
+            <w>furore</w>
+            <w>ꝑ</w>
+            <w>le</w>
+            <w>ſoie</w>
+            <w>oſſa</w>
+            <w norm="sara">sa <milestone unit="line" corresp="ddff0ddb" n="4"/> ra</w>
+            <w>pace.</w>
+          </s>
+          <s xml:id="s2.3.3" corresp="#l102">
+            <w>Facciamo</w>
+            <w>dumque</w>
+            <milestone unit="line" corresp="2373fa67" n="1"/>
+            <w>qͧͤſto</w>
+            <w>populo</w>
+            <w>comune</w>
+            <w>delli</w>
+            <w>ɨ</w>
+            <milestone unit="line" corresp="56c32eb9" n="2"/>
+            <persName ref="#Phrygios">frigij</persName>
+            <w>⁊</w>
+            <w>delli</w>
+            <persName ref="#Tyrios">tyrij</persName>
+            <w>⁊</w>
+            <persName ref="#Dido">dido</persName>
+            <w norm="ſerua">ſer <milestone unit="line" corresp="d8bc0c8e" n="3"/> ua</w>
+            <w>al</w>
+            <persName ref="#Aeneas">marito</persName>
+            <w>troyano.</w>
+          </s>
+          <s xml:id="s2.3.4" corresp="#l105">
+            <persName ref="#Venus">Uenus</persName>
+            <milestone unit="line" corresp="f0313136" n="1"/>
+            <w>ꝯſente</w>
+            <w>ale</w>
+            <w>parole</w>
+            <w>⁊</w>
+            <w>di</w>
+            <milestone unit="line" corresp="ea937824" n="2"/>
+            <w>mãda</w>
+            <w>⁊</w>
+            <w>conobbe</w>
+            <w>loganno</w>
+            <w>cioe</w>
+            <milestone unit="line" corresp="f103eb83" n="3"/>
+            <w>chella</w>
+            <w>uuole</w>
+            <w>tͬãſportare</w>
+            <w>lo</w>
+            <milestone unit="line" corresp="54c6e272" n="4"/>
+            <w>regno</w>
+            <w>di</w>
+            <placeName ref="#Italy">Jtalia.</placeName>
+            <w>ĩ</w>
+            <placeName ref="#Libya">libia.</placeName>
+          </s>
+          <s xml:id="s2.3.5" corresp="#l114">
+            <persName ref="#Iuno">Juno</persName>
+            <milestone unit="line" corresp="2df99175" n="1"/>
+            <w>dixe</w>
+            <persName ref="#Aeneas">Enea</persName>
+            <w>⁊</w>
+            <w>la</w>
+            <w>miſeriſſima</w>
+            <milestone unit="line" corresp="1252cd00" n="2"/>
+            <persName ref="#Dido">dido</persName>
+            <w>ſi</w>
+            <w>apparecchano</w>
+            <w>de</w>
+            <w norm="andare">an <milestone unit="line" corresp="14d0ca1f" n="3"/> dare</w>
+            <w>accacciare</w>
+            <w>nel</w>
+            <w>boſco.</w>
+          </s>
+          <s xml:id="s2.3.6" corresp="#l120">
+            <milestone unit="line" corresp="16de199b" n="1"/>
+            <w>Jo</w>
+            <w>ſpandero</w>
+            <w>ſopͬͣ</w>
+            <w>loro</w>
+            <w>pioua</w>
+            <milestone unit="line" corresp="ca58664b" n="2"/>
+            <w>⁊</w>
+            <w>troni</w>
+            <w>⁊</w>
+            <w>fuggiarãno</w>
+            <w>li</w>
+            <w norm="conpagni">con <milestone unit="line" corresp="59ec5430" n="3"/> pagni</w>
+            <w>⁊</w>
+            <w>fiero</w>
+            <w>daſcura</w>
+            <w>nocte</w>
+            <milestone unit="line" corresp="c2a3b24a" n="4"/>
+            <w>tinti.</w>
+          </s>
+          <s xml:id="s2.3.7" corresp="#l124">
+            <persName ref="#Dido">Dido</persName>
+            <w>el</w>
+            <persName ref="#Aeneas">duca</persName>
+            <w>troyano</w>
+            <milestone unit="line" corresp="1b0c025f" n="1"/>
+            <w>ꝑuerrãno</w>
+            <w>aduna</w>
+            <w>medeſima</w>
+            <milestone unit="line" corresp="fe4665d0" n="2"/>
+            <w>ſpelũca.</w>
+          </s>
+          <s xml:id="s2.3.8" corresp="#l125">
+            <w>Jo</w>
+            <w>ſero</w>
+            <w>preſente</w>
+            <w>⁊</w>
+            <milestone unit="line" corresp="b887b5a4" n="1"/>
+            <w>gingnerolli</w>
+            <w>ĩſiemi</w>
+            <w>cõ</w>
+            <w norm="ſtabele">ſtabe <milestone unit="line" corresp="dbabef7c" n="2"/> le</w>
+            <w>matrimoĩo.</w>
+          </s>
+          <s xml:id="s2.3.9" corresp="#l127">
+            <persName ref="#Venus">Uenus</persName>
+            <w norm="ſẽte">ꝯſẽ <milestone unit="line" corresp="52170f20" n="1"/> te</w>
+            <w>⁊</w>
+            <w>riſe</w>
+            <w>dellinganni</w>
+            <w>che</w>
+            <persName ref="#Iuno">Juno</persName>
+            <milestone unit="line" corresp="01a409bd" n="2"/>
+            <w>ae</w>
+            <w>trouati</w>
+            <w>el</w>
+            <w>ſequente</w>
+            <milestone unit="line" corresp="a356df9e" n="3"/>
+            <w>die</w>
+            <w>dũque</w>
+            <w>coſi</w>
+            <w>aduenne</w>
+            <w>qͧͤl</w>
+            <milestone unit="line" corresp="c1e3c782" n="4"/>
+            <w>fœ</w>
+            <w>il</w>
+            <w>pͬͥmo</w>
+            <w>die</w>
+            <w>cagiõe</w>
+            <w>de</w>
+            <w>la</w>
+            <milestone unit="line" corresp="4fcd22ee" n="5"/>
+            <w>morte</w>
+            <w>di</w>
+            <persName ref="#Dido">dido</persName>
+            <w>qͧͤllo</w>
+            <w>fœ</w>
+            <w norm="cagione">cagi <milestone unit="line" corresp="71e0c1f7" n="6"/>
+              <milestone unit="column" n="2"/> one</w>
+            <w>di</w>
+            <w>mali.</w>
+          </s>
+        </p>
+        <p xml:id="Dido-and-Aeneas-take-refuge-in-the-cave">
+          <s xml:id="s2.3.10" corresp="#l170">
+            <w>Ne</w>
+            <w>ancora</w>
+            <persName ref="#Dido">dido</persName>
+            <milestone unit="line" corresp="9ec8cf33" n="1"/>
+            <w>ꝑ</w>
+            <w>bellecḉa</w>
+            <w>ne</w>
+            <w>ꝑ</w>
+            <persName ref="#Fama">fama</persName>
+            <w norm="ſimoue">ſimo <milestone unit="line" corresp="4aa87c27" n="2"/> ue.</w>
+          </s>
+          <s xml:id="s2.3.11" corresp="#l171">
+            <w>Uedẽno</w>
+            <w>penſa</w>
+            <w>il</w>
+            <w norm="furtiuo">furti <milestone unit="line" corresp="335a7c4e" n="1"/> uo</w>
+            <w>amore.</w>
+          </s>
+          <s xml:id="s2.3.12" corresp="#l172">
+            <w>Ello</w>
+            <w>lo</w>
+            <w>chiama</w>
+            <milestone unit="line" corresp="0b6eaab5" n="1"/>
+            <w>matͬͥmonio</w>
+            <w>⁊</w>
+            <w>cõ</w>
+            <w>qͧͤſto</w>
+            <w>nome</w>
+            <milestone unit="line" corresp="06af47b3" n="2"/>
+            <w>cuopre</w>
+            <w>la</w>
+            <w>colpa.</w>
+          </s>
+        </p>
+        <p xml:id="Fame-flies-from-city-to-city-causing-chaos">
+          <s xml:id="s2.3.13" corresp="#l173">
+            <w norm="Jncõtanẽte">Jncõtanẽ <milestone unit="line" corresp="e0c3c863" n="1"/>
+              te</w>
+            <w>corre</w>
+            <w>la</w>
+            <persName ref="#Fama">fama</persName>
+            <w>ꝑ</w>
+            <w>la</w>
+            <w>grãde</w>
+            <milestone unit="line" corresp="766f1a1e" n="2"/>
+            <w>cita</w>
+            <w>di</w>
+            <placeName ref="#Libya">libia.</placeName>
+          </s>
+        </p>
+      </div>
+      <div xml:id="p4" n="4">
+        <p xml:id="Fame-flies-from-city-to-city-causing-chaos-1">
+          <s xml:id="s2.4.0">
+            <milestone unit="line" corresp="6438cc5f"/>
+            <w>Le</w>
+            <w>ꝓpⁱetade</w>
+            <w>de</w>
+            <milestone unit="line" corresp="7a40561c"/>
+            <w>la</w>
+            <persName ref="#Fama">fama.</persName>
+          </s>
+          <s xml:id="s2.4.1" corresp="#l174">
+            <milestone unit="line" corresp="c6631c26" n="1"/>
+            <w norm="La">L <milestone unit="line" corresp="5230ca1c" n="2"/> A</w>
+            <persName ref="#Fama">fama</persName>
+            <w>e</w>
+            <w>male</w>
+            <w>de</w>
+            <w>quale</w>
+            <milestone unit="line" corresp="d50bb840" n="3"/>
+            <w>neuno</w>
+            <w>altro</w>
+            <w>e</w>
+            <w>piu</w>
+            <w norm="ueloce">uelo <milestone unit="line" corresp="ae0f2c13" n="4"/> ce</w>
+            <w>⁊</w>
+            <w>ꝑ</w>
+            <w>mouim̃to</w>
+            <w>uiue.</w>
+          </s>
+          <s xml:id="s2.4.2" corresp="#l175">
+            <w>Et</w>
+            <milestone unit="line" corresp="f2c06b97" n="1"/>
+            <w>andanno</w>
+            <w>acquiſta</w>
+            <w>forḉe.</w>
+          </s>
+          <s xml:id="s2.4.3" corresp="#l176">
+            <w>Jn</w>
+            <milestone unit="line" corresp="4e8efbb1" n="1"/>
+            <w>prima</w>
+            <w>ꝑ</w>
+            <w>paura</w>
+            <w>e</w>
+            <w>piccola</w>
+            <w>⁊</w>
+            <milestone unit="line" corresp="fcd418aa" n="2"/>
+            <w>ĩꝯtinente</w>
+            <w>ſi</w>
+            <w>leua</w>
+            <w>acielo</w>
+            <w>⁊</w>
+            <milestone unit="line" corresp="4034978d" n="3"/>
+            <w>entra</w>
+            <w>ne</w>
+            <w norm="satͤra">sa tͤra</w>
+            <w>el</w>
+            <w>capo</w>
+            <w>tra</w>
+            <milestone unit="line" corresp="ac2da43c" n="4"/>
+            <w>nuuoli</w>
+            <w>naſcõde</w>
+            <w>la</w>
+            <w>madre</w>
+            <w>tͤra</w>
+            <milestone unit="line" corresp="28717901" n="5"/>
+            <w>generoe</w>
+            <w>colei</w>
+            <w>fortificata</w>
+            <w>ꝑ</w>
+            <w norm="lira">li <milestone unit="line" corresp="795f482b" n="6"/> ra</w>
+            <w>delli</w>
+            <w>dij</w>
+            <w>uolatile</w>
+            <w>con</w>
+            <w>ale</w>
+            <milestone unit="line" corresp="b06a62ee" n="7"/>
+            <w>⁊</w>
+            <w>piedi</w>
+            <w>ueloci</w>
+            <w>mirabile</w>
+            <w>⁊</w>
+            <w norm="ſpãuenteuole">ſpã> <milestone unit="line" corresp="dc875b14" n="8"/>
+              uenteuole</w>
+            <w>miraculo</w>
+            <w>la</w>
+            <w>qͧͣle</w>
+            <milestone unit="line" corresp="856b6316" n="9"/>
+            <w>ae</w>
+            <w>tanti</w>
+            <w>occhi</w>
+            <w>ueggeuoli</w>
+            <w>quãte</w>
+            <milestone unit="line" corresp="1f874cf6" n="10"/>
+            <w>penne</w>
+            <w>ae</w>
+            <w>ĩ</w>
+            <w>uno</w>
+            <w>uccello</w>
+            <w>⁊</w>
+            <w norm="tãte">tã <milestone unit="line" corresp="26a3b2a3" n="11"/> te</w>
+            <w>lingue</w>
+            <w>⁊</w>
+            <w>tãte</w>
+            <w>bocche</w>
+            <w>che</w>
+            <milestone unit="line" corresp="9431b8f9" n="12"/>
+            <w>fauellano</w>
+            <w>⁊</w>
+            <w>tãte</w>
+            <w>orecchie</w>
+            <w norm="tiene">ti <milestone unit="line" corresp="3a08165a" n="13"/> ene</w>
+            <w>leuate.</w>
+          </s>
+          <s xml:id="s2.4.4" corresp="#l184">
+            <w>Di</w>
+            <w>nocte</w>
+            <w>uola</w>
+            <w>ꝑ</w>
+            <milestone unit="line" corresp="baf9e9b6" n="1"/>
+            <w>meco</w>
+            <w>il</w>
+            <w>cielo</w>
+            <w>ſtridendo</w>
+            <w>ꝑ</w>
+            <w norm="lõbre">lõ <milestone unit="line" corresp="47765d05" n="2"/> bre</w>
+            <w>de</w>
+            <w>la</w>
+            <w>tͤra.</w>
+          </s>
+          <s xml:id="s2.4.5" corresp="#l185">
+            <w>Nelli</w>
+            <w>occhi</w>
+            <w norm="china">chi <milestone unit="line" corresp="eff9f574" n="1"/> na</w>
+            <w>al</w>
+            <w>dolce</w>
+            <w>ſeno.</w>
+          </s>
+          <s xml:id="s2.4.6" corresp="#l186">
+            <persName ref="#Fama">Ella</persName>
+            <w norm="guardatrice">guar <milestone unit="line" corresp="2102d4ea" n="1"/> datrice</w>
+            <w>ſiede</w>
+            <w>il</w>
+            <w>die</w>
+            <w>ĩ</w>
+            <w>ſula</w>
+            <w norm="ſõmita">ſõ <milestone unit="line" corresp="f34cae36" n="2"/> mita</w>
+            <w>dellalto</w>
+            <w>tecto</w>
+            <w>o</w>
+            <w>in</w>
+            <w>ſu</w>
+            <milestone unit="line" corresp="67c351b9" n="3"/>
+            <w>lalte</w>
+            <w>torri</w>
+            <w>⁊</w>
+            <w>le</w>
+            <w>grãdi</w>
+            <w>citadi</w>
+            <milestone unit="line" corresp="0e964333" n="4"/>
+            <w>ſpauriſce.</w>
+          </s>
+          <s xml:id="s2.4.7" corresp="#l188">
+            <w>Coſi</w>
+            <w>dela</w>
+            <w>cõmoſſa</w>
+            <milestone unit="line" corresp="9f7b128f" n="1"/>
+            <w>bugia</w>
+            <w>⁊</w>
+            <w>de</w>
+            <w>la</w>
+            <w>maluagitade</w>
+            <milestone unit="folio" n="17r"/>
+            <pb
+              facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8433319z/f41/full/full/0/default.jpg"
+              n="17r"/>
+            <milestone unit="column" n="1"/>
+            <milestone unit="line" corresp="e1edf80d" n="2"/>
+            <w>etegnẽte</w>
+            <w>come</w>
+            <w>meſſaggiera</w>
+            <w>del</w>
+            <milestone unit="line" corresp="f9a914c4" n="3"/>
+            <w>uero.</w>
+          </s>
+          <s xml:id="s3.4.8" corresp="#l189">
+            <w>Coſtei</w>
+            <w>allora</w>
+            <w>cõ</w>
+            <w>molte</w>
+            <w norm="parole">pa <milestone unit="line" corresp="71a4119f" n="1"/> role</w>
+            <w>riempieua</w>
+            <w>li</w>
+            <w>populi</w>
+            <w norm="allegrandoſi">alle <milestone unit="line" corresp="3c55aed7" n="2"/>
+              grantoſi.</w>
+          </s>
+          <s xml:id="s3.4.9" corresp="#l190">
+            <w>Et</w>
+            <w>coſi</w>
+            <w>qͧͤllo</w>
+            <w>che</w>
+            <w>non</w>
+            <milestone unit="line" corresp="dbda11ce" n="1"/>
+            <w>era</w>
+            <w>facto</w>
+            <w>pͬͤdicaua.</w>
+          </s>
+        </p>
+      </div>
+      <div xml:id="p5" n="5">
+        <p xml:id="Fame-flies-from-city-to-city-causing-chaos-2">
+          <s xml:id="s3.5.0">
+            <milestone unit="line" corresp="455b3628"/>
+            <w>Come</w>
+            <persName ref="#Iuppiter">Joue</persName>
+            <milestone unit="line" corresp="5e9ac7dc"/>
+            <w>fece</w>
+            <w>cõmãdare</w>
+            <w>ad</w>
+            <persName ref="#Aeneas">enea</persName>
+            <w norm="candaſſe">canda <milestone unit="line" corresp="d32cc010"/> ſſe</w>
+            <w>in</w>
+            <placeName ref="#Italy">Jnitalia.</placeName>
+          </s>
+          <s xml:id="s3.5.1" corresp="#l196">
+            <milestone unit="line" corresp="dd7fd38b" n="1"/>
+            <w norm="Peruenne">P <milestone unit="line" corresp="32d306b9" n="2"/> eruenne</w>
+            <w>qͧͤſta</w>
+            <persName ref="#Fama">fama</persName>
+            <w>allo</w>
+            <milestone unit="line" corresp="e24c00f2" n="3"/>
+            <w>Re</w>
+            <persName ref="#Iarba">Jarba</persName>
+            <w>il</w>
+            <w>quale</w>
+            <w>auea</w>
+            <milestone unit="line" corresp="363d5943" n="4"/>
+            <w>cõceduto</w>
+            <w>illido</w>
+            <w>⁊</w>
+            <persName ref="#Dido">ella</persName>
+            <w>il</w>
+            <w>ſuo</w>
+            <milestone unit="line" corresp="b0c34cd0" n="5"/>
+            <w>matrmonio</w>
+            <w>auea</w>
+            <w>rifiutato.</w>
+          </s>
+          <s xml:id="s3.5.2" corresp="#l203">
+            <milestone unit="line" corresp="8cbc27fe" n="1"/>
+            <w>Il</w>
+            <w>quale</w>
+            <w>acceſo</w>
+            <w>dira</w>
+            <w>pͬͤga</w>
+            <persName ref="#Iuppiter">Joue</persName>
+            <milestone unit="line" corresp="d10a81ff" n="2"/>
+            <w>⁊</w>
+            <w>dixe.</w>
+          </s>
+          <s xml:id="s3.5.3" corresp="#l211">
+            <w>O</w>
+            <w>oĩpotẽte</w>
+            <w>dio</w>
+            <w>uedi</w>
+            <w norm="qͧͤſta">qͧͤ <milestone unit="line" corresp="5efc7c9e" n="1"/> ſta</w>
+            <persName ref="#Dido">femina</persName>
+            <w>laquale</w>
+            <w>ſchifœ</w>
+            <w>il</w>
+            <milestone unit="line" corresp="074d7c6b" n="2"/>
+            <w>nͦ̾ͭro</w>
+            <w>matrimonio</w>
+            <w>⁊</w>
+            <w>ora</w>
+            <persName ref="#Aeneas">Enea</persName>
+            <milestone unit="line" corresp="7782aaf8" n="3"/>
+            <w>nelli</w>
+            <w>regni</w>
+            <w>e</w>
+            <w>riceuonuto</w>
+            <w norm="Sig̃ͦre">Sig̃ͦ <milestone unit="line" corresp="642b08da" n="4"/>
+              <w>to</w>
+              <milestone unit="line" corresp="10e56b45" n="5"/> re</w>
+            <w>oĩpotẽte</w>
+            <persName ref="#Iuppiter">Joue</persName>
+            <w>padre</w>
+            <w norm="exaudiſci">exau <milestone unit="line" corresp="797dcb86" n="6"/> diſci</w>
+            <persName ref="#Iarba">Jarba.</persName>
+          </s>
+          <s xml:id="s3.5.4" corresp="#l219">
+            <w>Coſtui</w>
+            <w>il</w>
+            <w>quale</w>
+            <w norm="adoraua">a <milestone unit="line" corresp="6f086ab4" n="1"/> doraua</w>
+            <w>cõ</w>
+            <w>cotali</w>
+            <w>pͬͤhi</w>
+            <w>⁊</w>
+            <w>tenea</w>
+            <milestone unit="line" corresp="5ed196e7" n="2"/>
+            <w>abracciati</w>
+            <w>li</w>
+            <w>altari</w>
+            <w>⁊</w>
+            <w>dio</w>
+            <persName ref="#Iuppiter">Joue</persName>
+            <milestone unit="line" corresp="77eb8463" n="3"/>
+            <w>uolſe</w>
+            <w>li</w>
+            <w>occhi</w>
+            <w>ali</w>
+            <w>reali</w>
+            <w>muri</w>
+            <w>⁊</w>
+            <milestone unit="line" corresp="58c79c26" n="4"/>
+            <w>ali</w>
+            <w>amanti</w>
+            <w>liquali</w>
+            <w>aueano</w>
+            <w>di</w>
+            <milestone unit="line" corresp="ff032753" n="5"/>
+            <w>uendicata</w>
+            <w>la</w>
+            <w>miglior</w>
+            <persName ref="#Fama">fama.</persName>
+          </s>
+          <s xml:id="s3.5.5" corresp="#l222">
+            <milestone unit="line" corresp="09bafeac" n="1"/>
+            <w>Dixe</w>
+            <w>a</w>
+            <persName ref="#Mercurius">Mercurio</persName>
+            <w>ua</w>
+            <w>figliolo</w>
+            <milestone unit="line" corresp="0a6d4302" n="2"/>
+            <w>⁊</w>
+            <w>chiama</w>
+            <w>li</w>
+            <w>uẽti</w>
+            <w>ḉefiri</w>
+            <w>⁊</w>
+            <w norm="diſcoͬri">diſcoͬ <milestone unit="line" corresp="3df67375" n="3"/> ri</w>
+            <w>collali</w>
+            <w>al</w>
+            <persName ref="#Aeneas">duca</persName>
+            <w>troyano.</w>
+          </s>
+          <s xml:id="s3.5.6" corresp="#l227">
+            <w>Et</w>
+            <milestone unit="line" corresp="3eb0645c" n="1"/>
+            <w>dilli</w>
+            <w>che</w>
+            <w>la</w>
+            <w>belliſſima</w>
+            <w>ſua</w>
+            <w>ma</w>
+            <milestone unit="line" corresp="23293ed5" n="2"/>
+            <w>dre</w>
+            <w>nõ</w>
+            <w>ci</w>
+            <w>ꝓmiſe</w>
+            <w>e̾̾ere</w>
+            <w>cotale.</w>
+          </s>
+          <s xml:id="s3.5.7" corresp="#l229">
+            <milestone unit="line" corresp="64e37e82" n="1"/>
+            <w>Ma</w>
+            <w>ſi</w>
+            <w>e</w>
+            <w>facto</w>
+            <w>che</w>
+            <w>reggerebbe</w>
+            <milestone unit="line" corresp="f4895b78" n="2"/>
+            <placeName ref="#Italy">Italia</placeName>
+            <w>⁊</w>
+            <w>tucto</w>
+            <w>il</w>
+            <w>mõdo</w>
+            <w norm="mecterebbe">mecte <milestone unit="line" corresp="c4356141" n="3"/> rebbe</w>
+            <w>ſocto</w>
+            <w>le</w>
+            <w>ſue</w>
+            <w>leggi.</w>
+          </s>
+          <s xml:id="s3.5.8" corresp="#l238">
+            <w>Et</w>
+            <persName ref="Mercurius">colui</persName>
+            <milestone unit="line" corresp="35395adb" n="1"/>
+            <w>obediẽdo</w>
+            <w>ĩcõtanẽte</w>
+            <w>andœ.</w>
+          </s>
+          <s xml:id="s3.5.9" corresp="#l260">
+            <milestone unit="line" corresp="c466afda" n="1"/>
+            <w>Et</w>
+            <w>trouato</w>
+            <persName ref="#Aeneas">Enea</persName>
+            <w>il</w>
+            <w>quale</w>
+            <w norm="fondaua">fon <milestone unit="line" corresp="7ddbca5f" n="2"/> daua</w>
+            <w>gia</w>
+            <w>rocche</w>
+            <w>⁊</w>
+            <w>nuoui</w>
+            <w norm="palacḉi">pala <milestone unit="column" n="2"/>
+              <milestone unit="line" corresp="992ea96c" n="3"/> cḉi.</w>
+          </s>
+        </p>
+        <p xml:id="Mercury-admonishes-Aeneas">
+          <s xml:id="s3.5.10" corresp="#l265">
+            <w>Et</w>
+            <w>dixeli</w>
+            <persName ref="#Aeneas">tu</persName>
+            <w>hedifichi</w>
+            <w>ora</w>
+            <milestone unit="line" corresp="6cbafcc3" n="1"/>
+            <w>fondam̃ti</w>
+            <w>dellalta</w>
+            <persName ref="#Carthage">cartagine</persName>
+            <milestone unit="line" corresp="3ea5093e" n="2"/>
+            <w>⁊</w>
+            <w>la</w>
+            <w>bella</w>
+            <placeName ref="#Carthage">Citade</placeName>
+            <w>tu</w>
+            <w>tucto</w>
+            <w norm="dato">da <milestone unit="line" corresp="c33fbd72" n="3"/> to</w>
+            <w>ala</w>
+            <w>moglie</w>
+            <w>ordine</w>
+            <w>⁊</w>
+            <w>guai</w>
+            <milestone unit="line" corresp="111bc173" n="4"/>
+            <w>ate</w>
+            <w>tu</w>
+            <w>ai</w>
+            <w>demẽtecato</w>
+            <w>il</w>
+            <w>tuo</w>
+            <w>re</w>
+            <milestone unit="line" corresp="4ddede5d" n="5"/>
+            <w>gno</w>
+            <w>⁊</w>
+            <w>le</w>
+            <w>toie</w>
+            <w>coſe.</w>
+          </s>
+          <s xml:id="s3.5.11" corresp="#l268">
+            <w>Jl</w>
+            <w>ſegniore</w>
+            <milestone unit="line" corresp="3f51c1e2" n="1"/>
+            <w>del</w>
+            <w>cielo</w>
+            <w>cõmanda</w>
+            <w>che</w>
+            <w>qͧͤſti</w>
+            <w norm="cõmandam̃ti">cõ <milestone unit="line" corresp="f2c5e2c4" n="2"/>
+              mandam̃ti</w>
+            <w>foſſero</w>
+            <w>portati</w>
+            <w>ꝑ</w>
+            <w>li</w>
+            <milestone unit="line" corresp="11bb71c0" n="3"/>
+            <w>ueloci</w>
+            <w>uẽti</w>
+            <w>che</w>
+            <w>ordine</w>
+            <w>tu</w>
+            <w>o</w>
+            <w>ꝯ</w>
+            <milestone unit="line" corresp="c434da44" n="4"/>
+            <w>che</w>
+            <w>ſꝑanḉa</w>
+            <w>cerchi</w>
+            <w>tu</w>
+            <w>repoſi</w>
+            <w>ne</w>
+            <milestone unit="line" corresp="d8bfadca" n="5"/>
+            <w>le</w>
+            <w>tͤre</w>
+            <w>di</w>
+            <placeName ref="#Libya">libia.</placeName>
+          </s>
+          <s xml:id="s3.5.12" corresp="#l272">
+            <w>Se</w>
+            <w>niuna</w>
+            <w>grolia</w>
+            <milestone unit="line" corresp="9fb70dc4" n="1"/>
+            <w>di</w>
+            <w>tante</w>
+            <w>coſe</w>
+            <w>ti</w>
+            <w>moue</w>
+            <w>ne</w>
+            <w>tu</w>
+            <w>ti</w>
+            <milestone unit="line" corresp="e0ae27b2" n="2"/>
+            <w>uugli</w>
+            <w>affaticare</w>
+            <w>ſoꝑª</w>
+            <w>le</w>
+            <w>tue</w>
+            <w norm="lode">lo <milestone unit="line" corresp="c3e58e6c" n="3"/> de.</w>
+          </s>
+          <s xml:id="s3.5.13" corresp="#l274">
+            <w>Guata</w>
+            <persName ref="#Iulo">Aſcanio</persName>
+            <w>⁊</w>
+            <w>lerede</w>
+            <w>⁊</w>
+            <milestone unit="line" corresp="7588107b" n="1"/>
+            <w>le</w>
+            <w>ſperãḉe</w>
+            <w>del</w>
+            <w>le</w>
+            <w>herede.</w>
+          </s>
+          <s xml:id="s3.5.14" corresp="#l275">
+            <persName ref="#Iulo">Julo</persName>
+            <milestone unit="line" corresp="ddb02e22" n="1"/>
+            <w>ali</w>
+            <w>quali</w>
+            <w>debbono</w>
+            <w>eſſere</w>
+            <w>dati</w>
+            <milestone unit="line" corresp="4b4055fb" n="2"/>
+            <w>li</w>
+            <w>regni</w>
+            <w>di</w>
+            <placeName ref="#Italy">Jtalia</placeName>
+            <w>⁊</w>
+            <w>la</w>
+            <w>tͤra</w>
+            <w norm="Romana">Ro <milestone unit="line" corresp="ae10530c" n="3"/> mana.</w>
+          </s>
+          <s xml:id="s3.5.15" corresp="#l276">
+            <w>Tali</w>
+            <w>coſe</w>
+            <w>decte</w>
+            <w>ſpario.</w>
+          </s>
+        </p>
+      </div>
+      <div xml:id="p6" n="6">
+        <p xml:id="Preparation-of-Aeneas-to-leave-Carthage">
+          <s xml:id="s3.6.0">
+            <milestone unit="line" corresp="9928705d"/>
+            <w>Come</w>
+            <persName ref="#Dido">dido</persName>
+            <w>cognoſcẽdo</w>
+            <w>li</w>
+            <w>appa</w>
+            <milestone unit="line" corresp="d325085e"/>
+            <w>ricchiam̃ti</w>
+            <w>del</w>
+            <w>ꝑtire</w>
+            <w>ad</w>
+            <persName ref="#Aeneas">enea</persName>
+            <milestone unit="line" corresp="29777746"/>
+            <w>coſi</w>
+            <w>fauellœ.</w>
+          </s>
+          <s xml:id="s3.6.1" corresp="#l279">
+            <milestone unit="line" corresp="b7b43c50" n="1"/>
+            <persName ref="#Aeneas">Enea</persName>
+            <milestone unit="line" corresp="daee98e4" n="2"/>
+            <w>nel</w>
+            <w>ſuo</w>
+            <w>cõſpecto</w>
+            <w>dio</w>
+            <milestone unit="line" corresp="84b8fa26" n="3"/>
+            <w>li</w>
+            <w>fauella</w>
+            <w>leuati</w>
+            <w>ſuſo</w>
+            <w>⁊</w>
+            <milestone unit="line" corresp="e4db5bf4" n="4"/>
+            <w>aricciati</w>
+            <w>i</w>
+            <w>capilli</w>
+            <w>ꝑ</w>
+            <w>timore</w>
+            <w>⁊</w>
+            <milestone unit="line" corresp="ff5c655c" n="5"/>
+            <w>arde</w>
+            <w>di</w>
+            <w>ꝑtirſi</w>
+            <w>fuggẽno</w>
+            <w>⁊</w>
+            <w norm="laſſiare">laſ <milestone unit="line" corresp="cd07ed76" n="6"/> ſiare</w>
+            <w>le</w>
+            <w>dolci</w>
+            <w>tͤre</w>
+            <w>ſpauentato</w>
+            <milestone unit="line" corresp="03bdc008" n="7"/>
+            <w>ꝑ</w>
+            <w>ſi</w>
+            <w>grande</w>
+            <w>ãmonim̃to</w>
+            <w>⁊</w>
+            <w norm="ꝯmãdam̃to">ꝯmã <milestone unit="line" corresp="87140595" n="8"/> dam̃to</w>
+            <w>delli</w>
+            <w>dij.</w>
+          </s>
+          <s xml:id="s3.6.2" corresp="#l288">
+            <w>Et</w>
+            <w norm="naſcoſam̃te">naſcoſam̃ <milestone unit="line" corresp="4c4257ee" n="1"/> te</w>
+            <w>chiama</w>
+            <w>li</w>
+            <persName ref="#Mates-of-Aeneas">ꝯpagni</persName>
+            <w>⁊</w>
+            <w norm="cõmãda">cõmã <milestone unit="line" corresp="291f21a5" n="2"/> da</w>
+            <w>che</w>
+            <w>celatam̃te</w>
+            <w norm="apparicchiano">apparicchia <milestone unit="line" corresp="f484660c" n="3"/>
+              no</w>
+            <w>le</w>
+            <w>naui</w>
+            <w>⁊</w>
+            <w>larme.</w>
+          </s>
+        </p>
+        <p xml:id="Omen-of-Dido">
+          <s xml:id="s3.6.3" corresp="#l296">
+            <w>Ma</w>
+            <w>la</w>
+            <milestone unit="line" corresp="b46f7a86" n="1"/>
+            <persName ref="#Dido">reina</persName>
+            <w>ſentiua</w>
+            <w>linganni.</w>
+          </s>
+          <s xml:id="s3.6.4" corresp="#l300">
+            <w>Chi</w>
+            <milestone unit="line" corresp="ccf75780" n="1"/>
+            <w>potrebbe</w>
+            <w>ĩgannare</w>
+            <w>la</w>
+            <w>mente</w>
+            <milestone unit="line" corresp="e6fce865" n="2"/>
+            <w>tucta</w>
+            <w>acceſa</w>
+            <w>ſmania</w>
+            <w>ꝑ</w>
+            <w>la</w>
+            <w>citade</w>
+            <milestone unit="folio" n="17v"/>
+            <pb
+              facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8433319z/f42/full/full/0/default.jpg"
+              n="17v"/>
+            <milestone unit="column" n="1"/>
+            <milestone unit="line" corresp="ba0569c9" n="3"/>
+            <w>Ala</w>
+            <w>ꝑfine</w>
+            <w>bagniata</w>
+            <w>di</w>
+            <w>lacͬͥme</w>
+            <milestone unit="line" corresp="e608ddcb" n="4"/>
+            <w>fauella.</w>
+          </s>
+          <s xml:id="s4.6.5" corresp="#l305">
+            <w>O</w>
+            <persName ref="#Aeneas">ꝑfido</persName>
+            <w>ſꝑaſti</w>
+            <w norm="infigniere">infign <milestone unit="line" corresp="1fe84866" n="1"/> iere</w>
+            <w>qͧͤſto</w>
+            <w>ꝑtim̃to</w>
+            <w>⁊</w>
+            <w>potere</w>
+            <w norm="fare">fa <milestone unit="line" corresp="84f4934a" n="2"/> re</w>
+            <w>tanta</w>
+            <w>follonia</w>
+            <w>⁊</w>
+            <w>nõ</w>
+            <w>ti</w>
+            <w>tiene</w>
+            <milestone unit="line" corresp="7f3db0e7" n="3"/>
+            <w>il</w>
+            <w>nͦ̾ͭro</w>
+            <w>amore</w>
+            <w>⁊</w>
+            <w>dextera</w>
+            <w>mano</w>
+            <milestone unit="line" corresp="fa4ce818" n="4"/>
+            <w>cõ</w>
+            <w>laquale</w>
+            <w>ci</w>
+            <w>diſti</w>
+            <w>fede.</w>
+          </s>
+          <s xml:id="s4.6.6" corresp="#l308">
+            <w>Re</w>
+            <persName ref="#Dido">dido</persName>
+            <milestone unit="line" corresp="ec53ebce" n="1"/>
+            <w>la</w>
+            <w>qual</w>
+            <w>morra</w>
+            <w>di</w>
+            <w>crodel</w>
+            <w norm="moͬte">moͬ <milestone unit="line" corresp="f7caf63e" n="2"/> te.</w>
+          </s>
+          <s xml:id="s4.6.7" corresp="#l314">
+            <w>Jo</w>
+            <w>te</w>
+            <w>pͬͤgo</w>
+            <w>ꝑ</w>
+            <w>queſte</w>
+            <w>lacͬͥme</w>
+            <milestone unit="line" corresp="b7274568" n="1"/>
+            <w>⁊</w>
+            <w>ꝑ</w>
+            <w>la</w>
+            <w>tua</w>
+            <w>dextra.</w>
+          </s>
+          <s xml:id="s4.6.8" corresp="#l315">
+            <w>Concio</w>
+            <w>ſia</w>
+            <w norm="coſa">co <milestone unit="line" corresp="5685b6b0" n="1"/> ſa</w>
+            <w>che</w>
+            <w>nullo</w>
+            <w>altro</w>
+            <w>ame</w>
+            <persName ref="#Dido">miſera</persName>
+            <milestone unit="line" corresp="33a9c521" n="2"/>
+            <w>laſciai</w>
+            <w>⁊</w>
+            <w>ꝑ</w>
+            <w>li</w>
+            <w>nͦ̾ͭri</w>
+            <w>matͬͥmony.</w>
+          </s>
+          <s xml:id="s4.6.9" corresp="#l317">
+            <w>Et</w>
+            <milestone unit="line" corresp="c14acad1" n="1"/>
+            <w>ſe</w>
+            <w>alcuna</w>
+            <w>coſa</w>
+            <w>di</w>
+            <w>te</w>
+            <w>bene</w>
+            <w norm="meritai">me <milestone unit="line" corresp="9fea463e" n="2"/> ritai</w>
+            <w>⁊</w>
+            <w>ſe</w>
+            <w>alcuna</w>
+            <w>deitade</w>
+            <w>ci</w>
+            <w>fœ</w>
+            <milestone unit="line" corresp="42a31878" n="3"/>
+            <w>dolce</w>
+            <w>chabbi</w>
+            <w>mia</w>
+            <w>dela</w>
+            <w>caſa</w>
+            <milestone unit="line" corresp="6cf3848d" n="4"/>
+            <w>che</w>
+            <w>ruina</w>
+            <w>ſpoglia</w>
+            <w>qͧͤſto</w>
+            <w>tua</w>
+            <w norm="fiero">fie <milestone unit="line" corresp="2a53a911" n="5"/> ro</w>
+            <w>aĩo</w>
+            <w>lauergõya</w>
+            <w>e</w>
+            <w>ſpẽta</w>
+            <w>et</w>
+            <milestone unit="line" corresp="ec8dde2c" n="6"/>
+            <w>quella</w>
+            <w>coſa</w>
+            <w>ꝑ</w>
+            <w>laquale</w>
+            <w>io</w>
+            <w>era</w>
+            <milestone unit="line" corresp="279f676b" n="7"/>
+            <w>leuata</w>
+            <w>ale</w>
+            <w>ſtelle</w>
+            <w>cioe</w>
+            <w>la</w>
+            <w>pͬͥma</w>
+            <milestone unit="line" corresp="59921407" n="8"/>
+            <persName ref="#Fama">fama.</persName>
+          </s>
+          <s xml:id="s4.6.10" corresp="#l325">
+            <w>Oy</w>
+            <persName ref="#Aeneas">hoſte</persName>
+            <w>acui</w>
+            <w>laſſi</w>
+            <w>tu</w>
+            <milestone unit="line" corresp="838879e4" n="1"/>
+            <w>me</w>
+            <w>uinta.</w>
+          </s>
+          <s xml:id="s4.6.11" corresp="#l327">
+            <w>Se</w>
+            <w>io</w>
+            <w>almeno</w>
+            <w norm="aue̾ſe">aue̾ <milestone unit="line" corresp="c33ad1d6" n="1"/> ſe</w>
+            <w>auuto</w>
+            <w>pͬͥma</w>
+            <w>alcuno</w>
+            <w>figliolo</w>
+            <milestone unit="line" corresp="f6058992" n="2"/>
+            <w>dite</w>
+            <w>nõ</w>
+            <w>mi</w>
+            <w>parrebbe</w>
+            <w norm="rimanere">rimane <milestone unit="line" corresp="eab12728" n="3"/> re</w>
+            <w>coſi</w>
+            <w>abbandonata.</w>
+          </s>
+          <s xml:id="s4.6.12" corresp="#l309">
+            <w>O</w>
+            <w>ꝑche</w>
+            <milestone unit="line" corresp="8a29d995" n="1"/>
+            <w>apparecchi</w>
+            <w>altreſi</w>
+            <w>nauicare</w>
+            <milestone unit="line" corresp="e437cccc" n="2"/>
+            <w>lo</w>
+            <w>uerno.</w>
+          </s>
+        </p>
+      </div>
+      <div xml:id="p7" n="7">
+        <p xml:id="Omen-of-Dido-1">
+          <s xml:id="s4.7.1" corresp="#l333">
+            <milestone unit="line" corresp="2b09d433" n="1"/>
+            <persName ref="#Aeneas">Enea</persName>
+            <milestone unit="line" corresp="513cbe9d" n="2"/>
+            <w>riſpoſe</w>
+            <w>a</w>
+            <persName ref="#Dido">Dido</persName>
+            <w>⁊</w>
+            <w>dixe.</w>
+          </s>
+          <s xml:id="s4.7.2" corresp="#l333">
+            <milestone unit="line" corresp="5f91dcb0" n="1"/>
+            <w>Quelle</w>
+            <w>coſe</w>
+            <w>le</w>
+            <w>quali</w>
+            <w>tu</w>
+            <milestone unit="line" corresp="bde8cbac" n="2"/>
+            <w>conti</w>
+            <w>giamai</w>
+            <w>nõ</w>
+            <w>neghero</w>
+            <w>ne</w>
+            <milestone unit="line" corresp="8e6ac5e8" n="3"/>
+            <w>uergognierõme</w>
+            <w>di</w>
+            <w norm="recordaremi">recorda <milestone unit="line" corresp="ec6040ab" n="4"/> remi</w>
+            <w>di</w>
+            <w>dido</w>
+            <w>ĩ</w>
+            <w>fino</w>
+            <w>cheio</w>
+            <w>mi</w>
+            <milestone unit="line" corresp="dfd874e3" n="5"/>
+            <w>recoͬdero</w>
+            <w>di</w>
+            <w>me</w>
+            <w>⁊</w>
+            <w>ĩ</w>
+            <w>fino</w>
+            <w>che</w>
+            <milestone unit="line" corresp="0f78f2e8" n="6"/>
+            <w>lo</w>
+            <w>ſꝑͥͬͥͭo</w>
+            <w>reggerra</w>
+            <w>qͧͤſti</w>
+            <w>mẽbri.</w>
+          </s>
+          <s xml:id="s4.7.3" corresp="#l345">
+            <milestone unit="line" corresp="00dc161a" n="1"/>
+            <w>Ma</w>
+            <w>ora</w>
+            <w>ꝑ</w>
+            <w>cõmãdam̃to</w>
+            <w>de</w>
+            <persName ref="#Apollo">Apolline</persName>
+            <milestone unit="line" corresp="f9b2ebc4" n="2"/>
+            <w>mi</w>
+            <w>cõuiene</w>
+            <w>ire</w>
+            <w>in</w>
+            <placeName ref="#Italy">ytalia.</placeName>
+            <milestone unit="column" n="2"/>
+            <milestone unit="line" corresp="47917253" n="3"/>
+          </s>
+          <s xml:id="s4.7.4" corresp="#l347">
+            <w>Certo</w>
+            <w>qui</w>
+            <w>e</w>
+            <w>il</w>
+            <w>mio</w>
+            <w norm="amore">amo <milestone unit="line" corresp="ffba65e2" n="1"/> re</w>
+            <w>qui</w>
+            <w>e</w>
+            <w>la</w>
+            <w>mia</w>
+            <w>patria.</w>
+          </s>
+          <s xml:id="s4.7.5" corresp="#l351">
+            <w>Et</w>
+            <milestone unit="line" corresp="0da24893" n="1"/>
+            <w>quãte</w>
+            <w>uolte</w>
+            <w>cuopre</w>
+            <w>cõ</w>
+            <w norm="lombre">lom <milestone unit="line" corresp="f68ddb72" n="2"/> bre</w>
+            <w>la</w>
+            <w>tͤra</w>
+            <w>⁊</w>
+            <w>quãte</w>
+            <w>uolte</w>
+            <w>le</w>
+            <milestone unit="line" corresp="c2355f8b" n="3"/>
+            <w>celeſtiale</w>
+            <w>ſtelle</w>
+            <w>ſi</w>
+            <w>leuano</w>
+            <w>la</w>
+            <milestone unit="line" corresp="5bf00f71" n="4"/>
+            <w>ymagine</w>
+            <w>del</w>
+            <w>padre</w>
+            <persName ref="#Anchisae">Anchise</persName>
+            <milestone unit="line" corresp="18dde93a" n="5"/>
+            <w>me</w>
+            <w>ãmoniſſe</w>
+            <w>ĩ</w>
+            <w>ſonno</w>
+            <w>⁊</w>
+            <w>miſpa</w>
+            <milestone unit="line" corresp="05295382" n="6"/>
+            <w>uento</w>
+            <w>ꝑ</w>
+            <w>che</w>
+            <w>io</w>
+            <w>fraudo</w>
+            <w>lo</w>
+            <w norm="regno">re <milestone unit="line" corresp="a28e9eda" n="7"/> gno</w>
+            <w>di</w>
+            <placeName ref="#Italy">Jtalia</placeName>
+            <w>⁊</w>
+            <w>ſimili</w>
+            <w>al</w>
+            <w norm="garḉone">gar <milestone unit="line" corresp="e9c9ab9b" n="8"/> ḉone</w>
+            <persName ref="#Iulo">Aſcanio.</persName>
+          </s>
+          <s xml:id="s4.7.6" corresp="#l356">
+            <w>Ora</w>
+            <w>altreſſi</w>
+            <w>il</w>
+            <milestone unit="line" corresp="4da0d6f8" n="1"/>
+            <w>diuino</w>
+            <persName ref="#Mercurius">mercurio</persName>
+            <w>meſſo</w>
+            <w norm="mãdato">mã <milestone unit="line" corresp="d51fb2ea" n="2"/> dato</w>
+            <w>da</w>
+            <persName ref="#Iuppiter">Joue</persName>
+            <w>mi</w>
+            <w>recœ</w>
+            <w>i</w>
+            <w norm="cõmãdam̃ti">cõmã <milestone unit="line" corresp="509ff263" n="3"/>
+              dam̃ti.</w>
+          </s>
+          <s xml:id="s4.7.7" corresp="#l358">
+            <w>Jo</w>
+            <w>ſteſſo</w>
+            <w>uidi</w>
+            <w>dio</w>
+            <w>nel</w>
+            <milestone unit="line" corresp="e6a3e480" n="1"/>
+            <w>chiaro</w>
+            <w>lume</w>
+            <w>entrando</w>
+            <w>nel</w>
+            <w norm="cãmera">cã <milestone unit="line" corresp="19d94ff1" n="2"/> mera</w>
+            <w>⁊</w>
+            <w>la</w>
+            <w>uoce</w>
+            <w>ſua</w>
+            <w>cõ</w>
+            <w>le</w>
+            <w>orecchie</w>
+            <milestone unit="line" corresp="81a74a6d" n="3"/>
+            <w>miei</w>
+            <w>udij</w>
+            <w>che</w>
+            <w>me</w>
+            <w>dixe.</w>
+          </s>
+          <s xml:id="s4.7.8" corresp="#l360">
+            <w norm="Guardati">Guar <milestone unit="line" corresp="3aa841a2" n="1"/> dati</w>
+            <w>chio</w>
+            <w>ñomi</w>
+            <w>turbi</w>
+            <w>te</w>
+            <w norm="coceſſa">coceſ <milestone unit="line" corresp="ff3510c8" n="2"/> ſa</w>
+            <w>il</w>
+            <w>piu</w>
+            <w>dimorare</w>
+            <w>tu</w>
+            <w>⁊li</w>
+            <w>tuoi</w>
+            <milestone unit="line" corresp="0982f13f" n="3"/>
+            <w>richiami.</w>
+          </s>
+          <s xml:id="s4.7.9" corresp="#l361">
+            <w>Jo</w>
+            <w>nõ</w>
+            <w>ſequito</w>
+            <placeName ref="#Italy">Jtalia</placeName>
+            <milestone unit="line" corresp="7115c4d6" n="1"/>
+            <w>di</w>
+            <w>mia</w>
+            <w>uolũtade.</w>
+          </s>
+        </p>
+      </div>
+      <div xml:id="p8" n="8">
+        <p xml:id="Omen-of-Dido-2">
+          <s xml:id="s4.8.1" corresp="#l364">
+            <milestone unit="line" corresp="69920e95" n="1"/>
+            <persName ref="#Dido">Djdo</persName>
+            <milestone unit="line" corresp="c636e23d" n="2"/>
+            <w>adirata</w>
+            <w>reſpoſe</w>
+            <w>yo</w>
+            <milestone unit="line" corresp="653d552b" n="3"/>
+            <w>nõ</w>
+            <w>credo</w>
+            <w>che</w>
+            <w>tu</w>
+            <w>naſceſſi</w>
+            <milestone unit="line" corresp="e7479d58" n="4"/>
+            <w>della</w>
+            <w>diuina</w>
+            <w>madre</w>
+            <w>ne</w>
+            <w>del</w>
+            <milestone unit="line" corresp="5d1fe518" n="5"/>
+            <w>ſangue</w>
+            <w>di</w>
+            <w>dardano.</w>
+          </s>
+          <s xml:id="s4.8.2" corresp="#l366">
+            <w>Ma</w>
+            <w norm="lalto">lal <milestone unit="line" corresp="ed064a4f" n="1"/> to</w>
+            <w>mõte</w>
+            <w>caucaſo</w>
+            <w>ti</w>
+            <w>generoɨ</w>
+            <w>ɨ</w>
+            <milestone unit="line" corresp="50c25df8" n="2"/>
+            <w>trale</w>
+            <w>dure</w>
+            <w>pietre</w>
+            <w>⁊</w>
+            <w>li</w>
+            <persName ref="#Tyrios">tyri</persName>
+            <w>ti</w>
+            <milestone unit="line" corresp="b1973660" n="3"/>
+            <w>notricareno</w>
+            <w>nõ</w>
+            <w>temeſti</w>
+            <w>ꝑlo</w>
+            <milestone unit="line" corresp="c855618c" n="4"/>
+            <w>nͦ̾ͭro</w>
+            <w>pianto</w>
+            <w>ne</w>
+            <w>piegaſti</w>
+            <w>li</w>
+            <w>occhi</w>
+            <milestone unit="line" corresp="9ba3997d" n="5"/>
+            <w>ne</w>
+            <w>auiſti</w>
+            <w>mia</w>
+            <w>dellamante</w>
+            <w>ɨ</w>
+            <milestone unit="line" corresp="a68e3abe" n="6"/>
+            <persName ref="#Dido">dido</persName>
+            <w>niuna</w>
+            <w>fede</w>
+            <w>e</w>
+            <w>ſicura</w>
+            <w>Jo</w>
+            <milestone unit="line" corresp="5b02a279" n="7"/>
+            <w>riceuecti</w>
+            <w>te</w>
+            <w>biſognoſo</w>
+            <w>⁊</w>
+            <w norm="giectato">giec <milestone unit="line" corresp="120a9ade" n="8"/> tato</w>
+            <w>nel</w>
+            <w>lito</w>
+            <w>⁊io</w>
+            <w>pacḉa</w>
+            <w norm="timiſi">timi <milestone unit="line" corresp="6d854fdf" n="9"/> ſi</w>
+            <w>ĩ ꝑte</w>
+            <w>del</w>
+            <w>regno</w>
+            <w>il</w>
+            <w>ꝑduto</w>
+            <milestone unit="line" corresp="616a2113" n="10"/>
+            <w>nauilio</w>
+            <w>⁊</w>
+            <w>li</w>
+            <persName ref="#Mates-of-Aeneas">ꝯpagni</persName>
+            <w>da</w>
+            <w>moͬte</w>
+            <milestone unit="folio" n="18r"/>
+            <pb
+              facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8433319z/f43/full/full/0/default.jpg"
+              n="18r"/>
+            <milestone unit="column" n="1"/>
+            <milestone unit="line" corresp="b97a95ad" n="1"/>
+            <w>reſuſcitai.</w>
+          </s>
+          <s xml:id="s5.8.3" corresp="#l376">
+            <w>Oy</w>
+            <w>me</w>
+            <w>io</w>
+            <w>acceſa</w>
+            <w norm="ſono">ſo <milestone unit="line" corresp="e1c9a049" n="1"/> no</w>
+            <w>portata</w>
+            <w>dale</w>
+            <w>furie.</w>
+          </s>
+          <s xml:id="s5.8.4" corresp="#l376">
+            <w>Ora</w>
+            <w>e</w>
+            <milestone unit="line" corresp="9bcd2451" n="1"/>
+            <w>indiuino</w>
+            <persName ref="#Apollo">Apollo.</persName>
+          </s>
+          <s xml:id="s5.8.5" corresp="#l377">
+            <w>Ora</w>
+            <w>lo</w>
+            <w norm="interpͤto">inter <milestone unit="line" corresp="02ff354f" n="1"/> pͤto</w>
+            <w>mandœ</w>
+            <persName ref="#Iuppiter">Joue</persName>
+            <w>⁊</w>
+            <w>reca</w>
+            <w>li</w>
+            <w norm="crudeli">cru <milestone unit="line" corresp="d037edff" n="2"/> deli</w>
+            <w>ꝯmãdam̃ti</w>
+            <w>ali</w>
+            <w>tuoi</w>
+            <w norm="oriecchie">oriec <milestone unit="line" corresp="26bccf63" n="3"/> chie.</w>
+          </s>
+          <s xml:id="s5.8.6" corresp="#l381">
+            <w>Ua</w>
+            <w>⁊</w>
+            <w>ſeguiſci</w>
+            <w>cõ</w>
+            <w>li</w>
+            <w>uẽti</w>
+            <milestone unit="line" corresp="99cef045" n="1"/>
+            <placeName ref="#Italy">Jtalia</placeName>
+            <w>cerca</w>
+            <w>li</w>
+            <w>regni</w>
+            <w>ꝑ</w>
+            <w>lacque.</w>
+          </s>
+          <s xml:id="s5.8.7" corresp="#l382">
+            <milestone unit="line" corresp="d67711ef" n="1"/>
+            <w>Et</w>
+            <w norm="ĩuentate">ĩ uentate</w>
+            <w>io</w>
+            <w>ſꝑo</w>
+            <w>ſe</w>
+            <w>le</w>
+            <w norm="pietoſe">pieto <milestone unit="line" corresp="33d834c9" n="2"/> ſe</w>
+            <w>deitadi</w>
+            <w>anno</w>
+            <w>pũcto</w>
+            <w>di</w>
+            <w norm="forḉa">for <milestone unit="line" corresp="2298f903" n="3"/> ḉa</w>
+            <w>che</w>
+            <persName ref="#Aeneas">tu</persName>
+            <w>ſopra</w>
+            <w>li</w>
+            <w>ſcogli</w>
+            <w norm="riceuerrai">rice <milestone unit="line" corresp="b373cd01" n="4"/> uerrai</w>
+            <w>torm̃ti</w>
+            <w>⁊</w>
+            <w>che</w>
+            <w>ſpeſſe</w>
+            <w norm="uolte">uol <milestone unit="line" corresp="a68e0902" n="5"/> te</w>
+            <w>chiamãrai</w>
+            <persName ref="#Dido">dido.</persName>
+          </s>
+          <s xml:id="s5.8.8" corresp="#l384">
+            <w>Jo</w>
+            <w>abſẽte</w>
+            <milestone unit="line" corresp="e77eccbd" n="1"/>
+            <w>⁊</w>
+            <w>nõ</w>
+            <w>pͬͤ̾ͤnte</w>
+            <w>ti</w>
+            <w>ſeguirœ</w>
+            <w>cõ</w>
+            <w norm="crodeli">crode <milestone unit="line" corresp="b0ce3b59" n="2"/> li</w>
+            <w>fuochi</w>
+            <w>⁊</w>
+            <w>qͧͣndo</w>
+            <w>la</w>
+            <w>freda</w>
+            <w norm="morte">mor <milestone unit="line" corresp="c904f131" n="3"/> te</w>
+            <w>auera</w>
+            <w>ꝑtita</w>
+            <w>lanͥͫa</w>
+            <w>dale</w>
+            <w norm="mͤͫbra">mͤͫ <milestone unit="line" corresp="63fbbf76" n="4"/> bra</w>
+            <w>io</w>
+            <w>facta</w>
+            <w>ombra</w>
+            <w>ĩ</w>
+            <w>tucti</w>
+            <w>li</w>
+            <milestone unit="line" corresp="4dcc3f5d" n="5"/>
+            <w>luochi</w>
+            <w>ti</w>
+            <w>ſaro</w>
+            <w>pͬͤ̾ͤnte.</w>
+          </s>
+          <s xml:id="s5.8.9" corresp="#l386">
+            <w>Tu</w>
+            <w norm="maluagio">mal <milestone unit="line" corresp="67f3e1f0" n="1"/> uagio</w>
+            <w>ſoſterrai</w>
+            <w>pene</w>
+            <w>⁊</w>
+            <w>io</w>
+            <w>lo</w>
+            <milestone unit="line" corresp="9a6e3c56" n="2"/>
+            <w>uedero</w>
+            <w>⁊</w>
+            <w>diro</w>
+            <w>qͧͤsta</w>
+            <w>fama</w>
+            <w norm="uẽ">uẽræ <milestone unit="line" corresp="9ba92b3a" n="3"/> ræ</w>
+            <w>ame</w>
+            <w>fra</w>
+            <w>lenfernali</w>
+            <w>aniͫe.</w>
+          </s>
+          <s xml:id="s5.8.10" corresp="#l388">
+            <milestone unit="line" corresp="6610ab06" n="1"/>
+            <w>Decte</w>
+            <w>queſte</w>
+            <w>coſe</w>
+            <w>trauolge</w>
+            <milestone unit="line" corresp="367a4b91" n="2"/>
+            <w>liocchi</w>
+            <w>⁊</w>
+            <w>lei</w>
+            <w>caduta</w>
+            <w>le</w>
+            <w norm="ſeruiciale">ſerui <milestone unit="line" corresp="1ce5fd34" n="3"/> ciale</w>
+            <w>laportano</w>
+            <w>ne</w>
+            <w>la</w>
+            <w>cãme</w>
+            <milestone unit="line" corresp="de5dcae7" n="4"/>
+            <w>ra</w>
+            <w>⁊</w>
+            <w>nel</w>
+            <w>lecto</w>
+            <w>la</w>
+            <w>poſano.</w>
+          </s>
+        </p>
+      </div>
+      <div xml:id="p9" n="9">
+        <p xml:id="Aeneas-come-back-to-his-mates-to-conclude-the-preparations">
+          <s xml:id="s5.9.1" corresp="#l393">
+            <milestone unit="line" corresp="8e595984" n="1"/>
+            <w norm="Il">I <milestone unit="line" corresp="b4a292e7" n="2"/> L</w>
+            <w>pietuſo</w>
+            <persName ref="#Aeneas">enea</persName>
+            <w>auegnia</w>
+            <w>ɨ</w>
+            <milestone unit="line" corresp="8b7b7397" n="3"/>
+            <w>chel</w>
+            <w>li</w>
+            <w>deſideri</w>
+            <w>di</w>
+            <w norm="mitigare">mitiga <milestone unit="line" corresp="81c2e4f1" n="4"/> re</w>
+            <w>li</w>
+            <w>dolori</w>
+            <w>di</w>
+            <persName ref="#Dido">dido.</persName>
+          </s>
+          <s xml:id="s5.9.2" corresp="#l396">
+            <w>Elli</w>
+            <w>pur</w>
+            <milestone unit="line" corresp="0086daaf" n="1"/>
+            <w>ꝯpieo</w>
+            <w>li</w>
+            <w>ꝯmãdam̃ti</w>
+            <w>delli</w>
+            <w>dij.</w>
+          </s>
+          <s xml:id="s5.9.3" corresp="#l396">
+            <milestone unit="line" corresp="317917d3" n="1"/>
+            <w>Et</w>
+            <w>ꝯmãda</w>
+            <w>tucte</w>
+            <w>coſe</w>
+            <w>appare</w>
+            <milestone unit="line" corresp="92aa625d" n="2"/>
+            <w>chiare.</w>
+          </s>
+        </p>
+        <p xml:id="Dido-sends-Anna-to-Aeneas-to-convince-him-to-stay">
+          <s xml:id="s5.9.4" corresp="#l408">
+            <w>Le</w>
+            <w>quale</w>
+            <w>uedẽno</w>
+            <persName ref="#Dido">dido</persName>
+            <milestone unit="line" corresp="d9bfb5c3" n="1"/>
+            <w>da</w>
+            <w>la</w>
+            <w>rocca</w>
+            <w>piangea</w>
+            <w>con</w>
+            <milestone unit="line" corresp="ffb531a3" n="2"/>
+            <w>doloroſi</w>
+            <w>gemiti.</w>
+          </s>
+          <s xml:id="s5.9.5" corresp="#l412">
+            <w>O</w>
+            <w>amore</w>
+            <w>ɨ</w>
+            <milestone unit="line" corresp="ea8c400c" n="1"/>
+            <w>maluagio</w>
+            <w>a</w>
+            <w>che</w>
+            <w>coſe</w>
+            <w>ne</w>
+            <w norm="ꝯſtrĩgi">ꝯſtrĩ <milestone unit="line" corresp="747ee745" n="2"/> gi</w>
+            <w>tu</w>
+            <w>li</w>
+            <w>mortali.</w>
+          </s>
+          <s xml:id="s5.9.6" corresp="#l413">
+            <w>Ancora</w>
+            <w>e</w>
+            <w norm="cõſtrecta">cõ <milestone unit="column" n="2"/>
+              <milestone unit="line" corresp="42ca5efc" n="1"/> ſtrecta</w>
+            <persName ref="#Dido">dido</persName>
+            <w>cõpiãgere</w>
+            <w>ancora</w>
+            <milestone unit="line" corresp="fc469b6e" n="2"/>
+            <w>e</w>
+            <w>ꝯſtrecta</w>
+            <w>cõ</w>
+            <w>pͬͥͤghi</w>
+            <w>cercare</w>
+            <w>⁊</w>
+            <w>li</w>
+            <milestone unit="line" corresp="4908aa79" n="3"/>
+            <w>humili</w>
+            <w>animi</w>
+            <w>mectere</w>
+            <w>ſocto</w>
+            <milestone unit="line" corresp="fe5a5c97" n="4"/>
+            <w>amore</w>
+            <w>adcio</w>
+            <persName ref="#Dido">chella</persName>
+            <w>moritiua</w>
+            <milestone unit="line" corresp="6097d533" n="5"/>
+            <w>nõ</w>
+            <w>laſſi</w>
+            <w>alcuna</w>
+            <w>coſa</w>
+            <w>aprouarͤ.</w>
+          </s>
+          <s xml:id="s5.9.7" corresp="#l424">
+            <milestone unit="line" corresp="7330d877" n="1"/>
+            <w>Allora</w>
+            <w>piangẽdo</w>
+            <w>ala</w>
+            <w>ſerocchia</w>
+            <milestone unit="line" corresp="21c5eb14" n="2"/>
+            <persName ref="#Anna">Anna</persName>
+            <w>fauella</w>
+            <w>⁊</w>
+            <w>dicele</w>
+            <w>che</w>
+            <w norm="uada">ua <milestone unit="line" corresp="ca9c2d60" n="3"/> da</w>
+            <w>ad</w>
+            <persName ref="#Aeneas">Enea</persName>
+            <w>⁊</w>
+            <w>pͬͤghilo</w>
+            <w>chal</w>
+            <w norm="meno">me <milestone unit="line" corresp="08a3903b" n="4"/> no</w>
+            <w>aſpecti</w>
+            <w>tẽpi</w>
+            <w>piu</w>
+            <w norm="ꝯueneuuli">ꝯueneuu <milestone unit="line" corresp="7603b0a3" n="5"/> li.</w>
+          </s>
+          <s xml:id="s5.9.8" corresp="#l437">
+            <w>La</w>
+            <w>ſerocchia</w>
+            <w>porta</w>
+            <w norm="lãbaſciata">lãbaſci <milestone unit="line" corresp="e01ca83c" n="1"/> ata</w>
+            <w>⁊</w>
+            <w>elli</w>
+            <w>intendi</w>
+            <w>la</w>
+            <w>uoce</w>
+            <w>⁊</w>
+            <w norm="ella">el <milestone unit="line" corresp="1030f3c9" n="2"/> la</w>
+            <w>inuano</w>
+            <w>parla</w>
+            <w>el</w>
+            <w>pͬͤghare</w>
+            <milestone unit="line" corresp="0583b7cb" n="3"/>
+            <w>ſimilim̃te</w>
+            <w>danna</w>
+            <w>e</w>
+            <w>inuano.</w>
+          </s>
+          <s xml:id="s5.9.9" corresp="#l440">
+            <milestone unit="line" corresp="f2c18f33" n="1"/>
+            <w>Li</w>
+            <w>fati</w>
+            <w>cõtrariano</w>
+            <w>⁊</w>
+            <w>ĩ</w>
+            <w>durano</w>
+            <milestone unit="line" corresp="c33269c9" n="2"/>
+            <w>li</w>
+            <w>piaceuuli</w>
+            <w>orecchie</w>
+            <w>del</w>
+            <persName ref="#Aeneas">hoͫͦ.</persName>
+          </s>
+          <s xml:id="s5.9.10" corresp="#l441">
+            <milestone unit="line" corresp="3c492767" n="1"/>
+            <w>Si</w>
+            <w>come</w>
+            <w>i</w>
+            <w>uẽti</w>
+            <w>ĩuano</w>
+            <w norm="ſbacteno">ſbacte <milestone unit="line" corresp="e6f04be6" n="2"/> no</w>
+            <w>la</w>
+            <w>ricta</w>
+            <w>quercia.</w>
+          </s>
+          <s xml:id="s5.9.11" corresp="#l447">
+            <w>Cõ</w>
+            <w norm="dortecḉa">fortec <milestone unit="line" corresp="e884b3d7" n="1"/> ḉa</w>
+            <w>coſi</w>
+            <w>lam̃te</w>
+            <w>de</w>
+            <persName ref="#Aeneas">enea</persName>
+            <w>ſta</w>
+            <w norm="ferma">fer <milestone unit="line" corresp="35bd38bf" n="2"/> ma</w>
+            <w>⁊</w>
+            <w>le</w>
+            <w>lacͬͥme</w>
+            <w>ſi</w>
+            <w>uolgono</w>
+            <w>uane.</w>
+          </s>
+        </p>
+      </div>
+      <div xml:id="p10" n="10">
+        <p xml:id="Dido-prepares-herself-to-die">
+          <s xml:id="s5.10.1" corresp="#l450">
+            <milestone unit="line" corresp="a82b1dfa" n="1"/>
+            <w norm="Allora">A <milestone unit="line" corresp="2da12fb0" n="2"/> Llora</w>
+            <w>la</w>
+            <w norm="diſauẽtorata">diſauẽtora <milestone unit="line" corresp="52ede685" n="3"/>
+              ta</w>
+            <persName ref="#Dido">dido</persName>
+            <w>ſpauentata</w>
+            <w>pͬͤga</w>
+            <milestone unit="line" corresp="16c39595" n="4"/>
+            <w>ꝑ</w>
+            <w>morire</w>
+            <w>⁊</w>
+            <w>ae</w>
+            <w>ĩfaſtidio</w>
+            <w>di</w>
+            <w>ɨ</w>
+            <milestone unit="line" corresp="c1906ab7" n="5"/>
+            <w>guardare</w>
+            <w>ĩ</w>
+            <w>cielo.</w>
+          </s>
+          <s xml:id="s5.10.2" corresp="#l452">
+            <w>Et</w>
+            <w>adcio</w>
+            <w>che</w>
+            <milestone unit="line" corresp="a410dd70" n="1"/>
+            <w>ella</w>
+            <w>piu</w>
+            <w>licuem̃te</w>
+            <w>ꝯpia</w>
+            <w>qͧͤllo</w>
+            <milestone unit="line" corresp="9de87eea" n="2"/>
+            <w>che</w>
+            <w>ella</w>
+            <w>acomĩciato</w>
+            <w>⁊</w>
+            <w>laſſi</w>
+            <w>la</w>
+            <milestone unit="line" corresp="d47f7b2f" n="3"/>
+            <w>uita</w>
+            <w>ponẽdo</w>
+            <w>offerte</w>
+            <w>inſu</w>
+            <w>li</w>
+            <milestone unit="line" corresp="bbbb489c" n="4"/>
+            <w>altari.</w>
+          </s>
+          <s xml:id="s5.10.3" corresp="#l454">
+            <w>Uide</w>
+            <w>ſpauẽteuole</w>
+            <w norm="maraueglia">ma <milestone unit="line" corresp="ca109bbb" n="1"/> rauelglia</w>
+            <w>cioe</w>
+            <w>deuẽtare</w>
+            <w>ne</w>
+            <milestone unit="line" corresp="92c9a5ff" n="2"/>
+            <w>li</w>
+            <w>ſacͬͥficij</w>
+            <w>dellacqua.</w>
+          </s>
+          <s xml:id="s5.10.4" corresp="#l455">
+            <w>Et</w>
+            <w>li</w>
+            <w>uini</w>
+            <milestone unit="line" corresp="303c294e" n="1"/>
+            <w>del</w>
+            <w>ſacͬͥfitio</w>
+            <w>ſi</w>
+            <w>ꝯuertirino</w>
+            <w>in</w>
+            <milestone unit="line" corresp="79eeb281" n="2"/>
+            <w>maledecto</w>
+            <w>ſangue.</w>
+          </s>
+          <s xml:id="s5.10.5" corresp="#l457">
+            <w>Et</w>
+            <w>ella</w>
+            <w>fo</w>
+            <milestone unit="line" corresp="de846149" n="1"/>
+            <w>menata</w>
+            <w>del</w>
+            <w>tẽpio</w>
+            <w>doue</w>
+            <w>era</w>
+            <milestone unit="line" corresp="e286222f" n="2"/>
+            <w>la</w>
+            <w>Jmagine</w>
+            <w>del</w>
+            <w>pͬͥmo</w>
+            <w>marito</w>
+            <milestone unit="line" corresp="354b222b" n="3"/>
+            <persName ref="#Sychaei">Sicheo.</persName>
+          </s>
+          <s xml:id="s5.10.6" corresp="#l460">
+            <w>Sono</w>
+            <w>udite</w>
+            <w>uoci</w>
+            <w>di</w>
+            <milestone unit="folio" n="18v"/>
+            <pb
+              facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8433319z/f44/full/full/0/default.jpg"
+              n="18v"/>
+            <milestone unit="column" n="1"/>
+            <milestone unit="line" corresp="fe0e48e1" n="1"/>
+            <w>colui</w>
+            <w>gridando</w>
+            <w>⁊</w>
+            <w>il</w>
+            <w>gufo</w>
+            <w>cõ</w>
+            <w norm="uoce">uo <milestone unit="line" corresp="b7b6ffd2" n="2"/> ce</w>
+            <w>di</w>
+            <w>morte</w>
+            <w>fo</w>
+            <w>udito</w>
+            <w>la</w>
+            <w>nocte</w>
+            <milestone unit="line" corresp="cfd2844c" n="3"/>
+            <w>ꝯ</w>
+            <w>uidesi</w>
+            <w>ĩ</w>
+            <w>ſogno</w>
+            <w>laſciare</w>
+            <w>ſola</w>
+            <w>dal</w>
+            <milestone unit="line" corresp="8b2fde5e" n="4"/>
+            <w>crudele</w>
+            <persName ref="#Aeneas">Enea.</persName>
+          </s>
+          <s xml:id="s6.10.7" corresp="#l474">
+            <persName ref="#Dido">Ella</persName>
+            <w>ſteſſa</w>
+            <w>coͬſe</w>
+            <milestone unit="line" corresp="8b9941bc" n="1"/>
+            <w>co</w>
+            <w>trouœ</w>
+            <w>il</w>
+            <w>tẽpo</w>
+            <w>el</w>
+            <w>modo</w>
+            <w>⁊</w>
+            <w>cõ</w>
+            <milestone unit="line" corresp="277a7deb" n="2"/>
+            <w>cotale</w>
+            <w>modo</w>
+            <w>aſſalliſce</w>
+            <w>la</w>
+            <w norm="cõtriſtata">cõtri <milestone unit="line" corresp="6dd51b27" n="3"/> ſtata</w>
+            <persName ref="#Anna">ſerocchia</persName>
+            <w>⁊</w>
+            <w>col</w>
+            <w>uoltu</w>
+            <w norm="ricuopre">ri <milestone unit="line" corresp="b6cca6f5" n="4"/> cuopre</w>
+            <w>il</w>
+            <w>ſuo</w>
+            <w>cõſiglio</w>
+            <w>⁊</w>
+            <w>cõ</w>
+            <w>la</w>
+            <w norm="frõte">frõ <milestone unit="line" corresp="7b13bf8e" n="5"/> te</w>
+            <w>riſchiara</w>
+            <w>la</w>
+            <w>ſꝑanḉa.</w>
+          </s>
+          <s xml:id="s6.10.8" corresp="#l478">
+            <w>O</w>
+            <w norm="ſerocchia">ſeroc <milestone unit="line" corresp="3af1afc8" n="1"/> chia</w>
+            <w>io</w>
+            <w>otrouata</w>
+            <w>uia</w>
+            <w>da</w>
+            <w norm="rellegrarmi">relle <milestone unit="line" corresp="cde1cb69" n="2"/> grarmi</w>
+            <w>e</w>
+            <w>da</w>
+            <w>diſlegarmi</w>
+            <w>œlli</w>
+            <milestone unit="line" corresp="6d14bc09" n="3"/>
+            <w>mi</w>
+            <w>ſara</w>
+            <w>fermo</w>
+            <w>amante</w>
+            <w>œlli</w>
+            <milestone unit="line" corresp="2606ce91" n="4"/>
+            <w>miſciogliera</w>
+            <w>dalui</w>
+            <w>la</w>
+            <persName ref="#Sacerdos">ſaceͬdoteſſa"</persName>
+            <milestone unit="line" corresp="03be3ef6" n="5"/>
+            <w>dele</w>
+            <w>gẽti</w>
+            <w>maſſiliane</w>
+            <w>e</w>
+            <milestone unit="line" corresp="2e81eb30" n="6"/>
+            <w>ĩſegnata</w>
+            <w>⁊</w>
+            <w>amaieſtrata</w>
+            <w>ĩarti</w>
+            <milestone unit="line" corresp="31a52e66" n="7"/>
+            <w>coſtei</w>
+            <w>dice</w>
+            <w>⁊</w>
+            <w>promecte</w>
+            <w norm="diſſogliere">diſſo <milestone unit="line" corresp="6c195f75" n="8"/> gliere</w>
+            <w>li</w>
+            <w>animi</w>
+            <w>cõſcõiuri</w>
+            <w>⁊</w>
+            <w norm="fare">fa <milestone unit="line" corresp="1300dad9" n="9"/> re</w>
+            <w>ſtar</w>
+            <w>ferma</w>
+            <w>lacqua</w>
+            <w>del</w>
+            <w norm="cõrẽte">cõrẽ <milestone unit="line" corresp="2d75ddee" n="10"/> te</w>
+            <w>fuime</w>
+            <w>⁊</w>
+            <w>far</w>
+            <w>uolgere</w>
+            <w>il</w>
+            <w norm="corſu">cor <milestone unit="line" corresp="ee17bd8e" n="11"/> ſu</w>
+            <w>dele</w>
+            <w>ſtelle.</w>
+          </s>
+          <s xml:id="s6.10.9" corresp="#l494">
+            <w>Tu</w>
+            <w>ſecõdo</w>
+            <w>arte</w>
+            <milestone unit="line" corresp="1de98814" n="1"/>
+            <w>ordina</w>
+            <w>il</w>
+            <w>fuoco</w>
+            <w>⁊</w>
+            <w>larmi</w>
+            <persName ref="#Aeneas">delluomo</persName>
+            <milestone unit="line" corresp="78c28982" n="2"/>
+            <w>il</w>
+            <w>quale</w>
+            <w>crudele</w>
+            <w>laſcio</w>
+            <w norm="appiccicate">ap <milestone unit="line" corresp="93976f3a" n="3"/> piccate</w>
+            <w>ne</w>
+            <w>la</w>
+            <w>camera</w>
+            <w>tucte</w>
+            <milestone unit="line" corresp="88a889d9" n="4"/>
+            <w>le</w>
+            <w>ſpoglia</w>
+            <w>⁊</w>
+            <w>nel</w>
+            <w>lecto</w>
+            <w>del</w>
+            <w norm="matrimoĩo">ma <milestone unit="line" corresp="51d598ed" n="5"/> trimoĩo</w>
+            <w>ꝑ</w>
+            <w>loquale</w>
+            <w>io</w>
+            <w>perij</w>
+            <w>ĩ</w>
+            <milestone unit="line" corresp="adb24f25" n="6"/>
+            <w>poni</w>
+            <w>ſuſo.</w>
+          </s>
+          <s xml:id="s6.10.10" corresp="#l497">
+            <persName ref="#Dido">Ella</persName>
+            <w>ꝯomãda</w>
+            <w>di</w>
+            <w norm="diſfare">diſ <milestone unit="line" corresp="22b1f475" n="1"/> fare</w>
+            <w>li</w>
+            <w>ornam̃ti</w>
+            <w>del</w>
+            <w>iniquo</w>
+            <milestone unit="line" corresp="3d23b5d0" n="2"/>
+            <w>h̃o</w>
+            <w>⁊</w>
+            <w>ĩſegna</w>
+            <w>quella</w>
+            <persName ref="#Sacerdos">ſaceͬdoteſſa"</persName>
+            <milestone unit="line" corresp="db491b98" n="3"/>
+          </s>
+          <s xml:id="s6.10.11" corresp="#l499">
+            <w>Decte</w>
+            <w>queſte</w>
+            <w>coſe</w>
+            <w>⁊</w>
+            <w>la</w>
+            <milestone unit="line" corresp="f9318610" n="1"/>
+            <w>palidecḉa</w>
+            <w>le</w>
+            <w>cuopre</w>
+            <w>il</w>
+            <w>uiſo.</w>
+          </s>
+          <s xml:id="s6.10.12" corresp="#l500">
+            <milestone unit="line" corresp="0ee3e523" n="1"/>
+            <persName ref="#Anna">anna</persName>
+            <w>nõ</w>
+            <w>crede</w>
+            <w>quella</w>
+            <w norm="auere">aue <milestone unit="line" corresp="95c715cb" n="2"/> re</w>
+            <w>cõpiuto</w>
+            <w>tanto</w>
+            <w>furore</w>
+            <w>⁊</w>
+            <milestone unit="line" corresp="ddeae70a" n="3"/>
+            <w>apparecchia</w>
+            <w>q̃llo</w>
+            <w>che</w>
+            <w>ella</w>
+            <milestone unit="line" corresp="6d5524e7" n="4"/>
+            <w>comanda.</w>
+          </s>
+        </p>
+      </div>
+      <milestone unit="column" n="2"/>
+      <div xml:id="p11" n="11">
+        <p xml:id="Dido-prepares-herself-to-die-1">
+          <s xml:id="s6.11.1" corresp="#l504">
+            <milestone unit="line" corresp="fc5bb094" n="1"/>
+            <w norm="Leuato">L <milestone unit="line" corresp="b0780463" n="2"/> Euato</w>
+            <w>dũque</w>
+            <w>la</w>
+            <w>grande</w>
+            <milestone unit="line" corresp="db2bfced" n="3"/>
+            <w>pyra</w>
+            <w>⁊</w>
+            <w>la</w>
+            <persName ref="#Dido">Reina</persName>
+            <w norm="cõghirlande">cõghir <milestone unit="line" corresp="5c1b95f0" n="4"/>
+              lande</w>
+            <w>cuopre</w>
+            <w>illuogo</w>
+            <w>della</w>
+            <milestone unit="line" corresp="be2a678d" n="5"/>
+            <w>morte</w>
+            <w>⁊</w>
+            <w>aſſectata</w>
+            <w>ſopͬͣ</w>
+            <w>le</w>
+            <w norm="ueſtim̃ta">ue <milestone unit="line" corresp="ba5e9026" n="6"/> ſtim̃ta</w>
+            <w>de</w>
+            <persName ref="#Aeneas">enea</persName>
+            <w>⁊</w>
+            <w>la</w>
+            <w>ſpata</w>
+            <w>che</w>
+            <milestone unit="line" corresp="7cc5b3bd" n="7"/>
+            <w>li</w>
+            <w>laſſœ</w>
+            <w>la</w>
+            <w>ſua</w>
+            <w>ſtatua</w>
+            <w>ĩ</w>
+            <w>lo</w>
+            <w norm="lecto">lec <milestone unit="line" corresp="6a414117" n="8"/> to</w>
+            <w>pone</w>
+            <w>⁊</w>
+            <w>nõ</w>
+            <w>ignorãte</w>
+            <w>di</w>
+            <w norm="qͧͤllo">qͧͤl <milestone unit="line" corresp="598a99a5" n="9"/> lo</w>
+            <w>che</w>
+            <w>de</w>
+            <w>e̾̾ere.</w>
+          </s>
+          <s xml:id="s6.11.2" corresp="#l509">
+            <w>Stãno</w>
+            <w>ĩtorno</w>
+            <milestone unit="line" corresp="5f4885e6" n="1"/>
+            <w>alaltare.</w>
+          </s>
+          <s xml:id="s6.11.3" corresp="#l509">
+            <w>Et</w>
+            <w>la</w>
+            <persName ref="#Sacerdos">ſaceͬdoteſſa"</persName>
+            <w>ɨ</w>
+            <milestone unit="line" corresp="9adb570f" n="2"/>
+            <w>ſcapillata</w>
+            <w>tre</w>
+            <w>uolte</w>
+            <w>chiama</w>
+            <milestone unit="line" corresp="5e48492c" n="3"/>
+            <w>li</w>
+            <w>dij</w>
+            <w>laquale</w>
+            <w>ſacͤͬdoteſſa</w>
+            <milestone unit="line" corresp="f545409f" n="4"/>
+            <w>daua</w>
+            <w>amãgiare</w>
+            <w>al</w>
+            <w>drago.</w>
+          </s>
+          <s xml:id="s6.11.4" corresp="#l512">
+            <milestone unit="line" corresp="0f7e5f9c" n="1"/>
+            <w>Et</w>
+            <w>li</w>
+            <w>ſãͭͥ</w>
+            <w>rami</w>
+            <w>nel</w>
+            <w>larbore</w>
+            <w>ɨ</w>
+            <milestone unit="line" corresp="1e2cf482" n="2"/>
+            <w>guardaua</w>
+            <w>ſpandẽdo</w>
+            <w>hũile</w>
+            <milestone unit="line" corresp="bfed7eb1" n="3"/>
+            <w>mele</w>
+            <w>al</w>
+            <w>ſonno.</w>
+          </s>
+          <s xml:id="s6.11.5" corresp="#l517">
+            <w>El</w>
+            <w>fiero</w>
+            <w>pa</w>
+            <milestone unit="line" corresp="a3414dcd" n="1"/>
+            <w>pauero</w>
+            <persName ref="#Dido">dido</persName>
+            <w>ſteſſa</w>
+            <w>ſi</w>
+            <w>como</w>
+            <w norm="ella">el <milestone unit="line" corresp="344279b2" n="2"/> la</w>
+            <w>leſeg̃uœ</w>
+            <w>abraccia</w>
+            <w>laltare</w>
+            <milestone unit="line" corresp="b7fc1c46" n="3"/>
+            <w>ſcalḉa</w>
+            <w>delluono</w>
+            <w>piede</w>
+            <w>⁊</w>
+            <w>cõ</w>
+            <w>uno</w>
+            <milestone unit="line" corresp="b864f0a4" n="4"/>
+            <w>legame</w>
+            <w>ricinta.</w>
+          </s>
+          <s xml:id="s6.11.6" corresp="#l519">
+            <w>Ella</w>
+            <w norm="moritoia">morito <milestone unit="line" corresp="381a410e" n="1"/> ia</w>
+            <w>ſcõiura</w>
+            <w>li</w>
+            <w>dij</w>
+            <w>⁊</w>
+            <w>le</w>
+            <w>ſtelle</w>
+            <w>ɨ</w>
+            <milestone unit="line" corresp="b71a4e7a" n="2"/>
+            <w>che</w>
+            <w>ſani</w>
+            <w>la</w>
+            <w>ſua</w>
+            <w>fortuna.</w>
+          </s>
+          <s xml:id="s6.11.7" corresp="#l520">
+            <w norm="Allora">Al <milestone unit="line" corresp="fcac1004" n="1"/> lora</w>
+            <w>prega</w>
+            <w>ſe</w>
+            <w>alcuna</w>
+            <w>deitade</w>
+            <milestone unit="line" corresp="c522bbad" n="2"/>
+            <w>dinõ</w>
+            <w>diricto</w>
+            <w>pacto</w>
+            <w>dello</w>
+            <w norm="amãte">amã <milestone unit="line" corresp="024fe46c" n="3"/> te</w>
+            <w>giusto</w>
+            <w>⁊</w>
+            <w>ricordeuole</w>
+            <w>ſia.</w>
+          </s>
+        </p>
+        <p xml:id="Night-fall">
+          <s xml:id="s6.11.8" corresp="#l522">
+            <milestone unit="line" corresp="1dd8bbd2" n="1"/>
+            <w>Nocte</w>
+            <w>era</w>
+            <w>⁊</w>
+            <w>li</w>
+            <w>laſſi</w>
+            <w>corpi</w>
+            <w norm="pigliauano">pig <milestone unit="line" corresp="0bedcd61" n="2"/> liauano</w>
+            <w>il</w>
+            <w>dolce</w>
+            <w>ſonno</w>
+            <w>⁊</w>
+            <w>le</w>
+            <milestone unit="line" corresp="71106c7b" n="3"/>
+            <w>ſelue</w>
+            <w>⁊</w>
+            <w>li</w>
+            <w>crudeli</w>
+            <w>mari</w>
+            <w>ſi</w>
+            <w norm="poſano">poſa <milestone unit="line" corresp="146831fa" n="4"/> no.</w>
+          </s>
+          <s xml:id="s6.11.9" corresp="#l524">
+            <w>Qñ</w>
+            <w>ĩ</w>
+            <w>meḉo</w>
+            <w>del</w>
+            <w>cadim̃to</w>
+            <milestone unit="line" corresp="18653f27" n="1"/>
+            <w>del</w>
+            <w>cielo</w>
+            <w>ſiſi</w>
+            <w>uolgono</w>
+            <w>le</w>
+            <w norm="ſtelle">ſtel <milestone unit="line" corresp="054107dd" n="2"/> le.</w>
+          </s>
+          <s xml:id="s6.11.10" corresp="#l525">
+            <w>Qn̾</w>
+            <w>tace</w>
+            <w>ogni</w>
+            <w>cãpo</w>
+            <w>⁊</w>
+            <w>le</w>
+            <milestone unit="line" corresp="79e4ffe6" n="1"/>
+            <w>pecore</w>
+            <w>⁊</w>
+            <w>li</w>
+            <w>uccelli</w>
+            <w>⁊</w>
+            <w>qualũque</w>
+            <milestone unit="line" corresp="80a6c2e4" n="2"/>
+            <w>illacte</w>
+            <w>notrica</w>
+            <w>poſto</w>
+            <w>ſonno</w>
+            <milestone unit="line" corresp="ff627527" n="3"/>
+            <w>latacente</w>
+            <w>nocte.</w>
+            <w>Ma</w>
+            <w norm="ladiſauẽtorata">ladiſa <milestone unit="line" corresp="913f394f" n="4"/>
+              uẽtorata</w>
+            <persName ref="#Dido">Dido</persName>
+            <w>ne</w>
+            <w>colluocchi</w>
+            <milestone unit="folio" n="19r"/>
+            <pb
+              facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8433319z/f45/full/full/0/default.jpg"
+              n="19r"/>
+            <milestone unit="column" n="1"/>
+            <milestone unit="line" corresp="c6638eed" n="5"/>
+            <w>ne</w>
+            <w>cõ</w>
+            <w>lanimo</w>
+            <w>pigla</w>
+            <w>ſonno</w>
+            <w>da</w>
+            <w norm="capo">ca <milestone unit="line" corresp="e3db5968" n="6"/> po</w>
+            <w>ſi</w>
+            <w>examina</w>
+            <w>ĩ</w>
+            <w>lei</w>
+            <w>la</w>
+            <w>morte</w>
+            <w norm="crodele">cro <milestone unit="line" corresp="f107dd8b" n="7"/> dele</w>
+            <w>⁊</w>
+            <w>col</w>
+            <w>ferro</w>
+            <w>ĩ</w>
+            <w>mano</w>
+            <w>coſi</w>
+            <w norm="fauella">fa <milestone unit="line" corresp="762e1db9" n="8"/> uella.</w>
+          </s>
+          <s xml:id="s7.11.11" corresp="#l534">
+            <w>Ecco</w>
+            <w>or</w>
+            <w>che</w>
+            <w>faro</w>
+            <w>io</w>
+            <w norm="dimãdaro">dimã <milestone unit="line" corresp="9020d873" n="1"/> daro</w>
+            <w>io</w>
+            <w>matͬͥmonio</w>
+            <w>di</w>
+            <persName ref="#Numidio">Numidio</persName>
+            <milestone unit="line" corresp="807c0da4" n="2"/>
+            <w>iquali</w>
+            <w>io</w>
+            <w>cotante</w>
+            <w>uolte</w>
+            <w>ſdeg̃ͣy.</w>
+          </s>
+          <s xml:id="s7.11.12" corresp="#l543">
+            <milestone unit="line" corresp="eda3cb31" n="1"/>
+            <w>Ouero</w>
+            <w>intorinata</w>
+            <w>cõ</w>
+            <w>li</w>
+            <w>miei</w>
+            <w>li</w>
+            <milestone unit="line" corresp="57a31277" n="2"/>
+            <w>quali</w>
+            <w>appena</w>
+            <w>traſſi</w>
+            <w>de</w>
+            <w>la</w>
+            <w>cita</w>
+            <w>di</w>
+            <milestone unit="line" corresp="bca22b33" n="3"/>
+            <placeName ref="#Sidonia">Sidonia</placeName>
+            <w>unaltra</w>
+            <w>uolta</w>
+            <w norm="ricercheroe">ricer <milestone unit="line" corresp="b11587be" n="4"/> cheroe</w>
+            <w>il</w>
+            <w>mare.</w>
+          </s>
+          <s xml:id="s7.11.13" corresp="#l547">
+            <w>Jnnãḉi</w>
+            <w>muori</w>
+            <milestone unit="line" corresp="2963d3b5" n="1"/>
+            <persName ref="#Dido">dido</persName>
+            <w>come</w>
+            <w>tu</w>
+            <w>ai</w>
+            <w>finito</w>
+            <w>⁊</w>
+            <w>col</w>
+            <w norm="fero">fe <milestone unit="line" corresp="45e82a4f" n="2"/> ro</w>
+            <w>ſtrauolgi</w>
+            <w>il</w>
+            <w>dolore.</w>
+          </s>
+          <s xml:id="s7.11.14" corresp="#l548">
+            <w>Tu</w>
+            <w>o</w>
+            <persName ref="#Anna">ſerocchia</persName>
+            <milestone unit="line" corresp="c7886d9c" n="1"/>
+            <w>ꝑ</w>
+            <w>li</w>
+            <w>mei</w>
+            <w>pianti</w>
+            <milestone unit="line" corresp="36a136e1" n="2"/>
+            <w>tu</w>
+            <w>pͬͥma</w>
+            <w>cõ</w>
+            <w>qͧͤſti</w>
+            <w>mali</w>
+            <w>ĩ</w>
+            <w>carcaſti</w>
+            <milestone unit="line" corresp="6dca5042" n="3"/>
+            <w>me</w>
+            <w>furioſa</w>
+            <w>⁊</w>
+            <w>cõtradiceſti</w>
+            <w>al</w>
+            <w norm="nimico">ni <milestone unit="line" corresp="8ce16e77" n="4"/> mico</w>
+            <w>nõ</w>
+            <w>fo</w>
+            <w>licito</w>
+            <w>ame</w>
+            <w>ſenḉa</w>
+            <milestone unit="line" corresp="8c5efcf7" n="5"/>
+            <w>peccato</w>
+            <w>menare</w>
+            <w>lauita</w>
+            <w>cõ</w>
+            <w norm="tãti">tã <milestone unit="line" corresp="bc9783fa" n="6"/> ti</w>
+            <w>torm̃ti</w>
+            <w>⁊</w>
+            <w>lam̃ti</w>
+            <w>qͧͤlla</w>
+            <w>rapio</w>
+            <milestone unit="line" corresp="4797c29c" n="7"/>
+            <w>nel</w>
+            <w>ſuo</w>
+            <w>pecto.</w>
+          </s>
+        </p>
+      </div>
+      <div xml:id="p12" n="12">
+        <p xml:id="Mercury-orders-Aeneas-to-definitely-leave-Carthage">
+          <s xml:id="s7.12.1" corresp="#l554">
+            <milestone unit="line" corresp="5cd96f0f" n="1"/>
+            <persName ref="#Aeneas">Enea</persName>
+            <milestone unit="line" corresp="70feda8b" n="2"/>
+            <w>nellalta</w>
+            <w>naue</w>
+            <w>gia</w>
+            <milestone unit="line" corresp="9101df99" n="3"/>
+            <w>ceͬto</w>
+            <w>dandare</w>
+            <w>pigliaua</w>
+            <w norm="ſõni">ſõ <milestone unit="line" corresp="271385cc" n="4"/> ni</w>
+            <w>eſſendo</w>
+            <w>gia</w>
+            <w>le</w>
+            <w>coſe</w>
+            <w norm="dirictam̃te">dirictam̃ <milestone unit="line" corresp="f2a1de2b" n="5"/> te</w>
+            <w>apparecchiate.</w>
+          </s>
+          <s xml:id="s7.12.2" corresp="#l556">
+            <persName ref="#Mercurius">Meͬcurio</persName>
+            <w>ĩ</w>
+            <w norm="foͬma">foͬ <milestone unit="line" corresp="4445ed81" n="1"/> ma</w>
+            <w>di</w>
+            <w>dio</w>
+            <w>li</w>
+            <w>apparue</w>
+            <w>coi</w>
+            <w norm="biundi">biun <milestone unit="line" corresp="1f11d683" n="2"/> di</w>
+            <w>capelli</w>
+            <w>⁊</w>
+            <w>m̃bri</w>
+            <w>belli</w>
+            <w>⁊</w>
+            <w norm="uiuenili">uiue <milestone unit="line" corresp="ab224bef" n="3"/> nili</w>
+            <w>⁊</w>
+            <w>dixe.</w>
+          </s>
+          <s xml:id="s7.12.3" corresp="#l560">
+            <w>O</w>
+            <w>figliolu</w>
+            <w>dela</w>
+            <w>dea</w>
+            <milestone unit="line" corresp="e26b5066" n="1"/>
+            <w>come</w>
+            <w>dormi</w>
+            <w>tu</w>
+            <w>ſciocco</w>
+            <w>nõ</w>
+            <w norm="uedi">ue <milestone unit="line" corresp="2320dd3e" n="2"/> di</w>
+            <w>tu</w>
+            <w>quali</w>
+            <w>⁊</w>
+            <w>quãti</w>
+            <w>ꝑicoli</w>
+            <w norm="tiſono">tiſo <milestone unit="line" corresp="ecbf9383" n="3"/> no</w>
+            <w>dintorno.</w>
+          </s>
+          <s xml:id="s7.12.4" corresp="#l562">
+            <w>Nõ</w>
+            <w>odi</w>
+            <w>tu</w>
+            <w norm="trarre">trar <milestone unit="line" corresp="733fe43c" n="1"/> re</w>
+            <w>li</w>
+            <w>ſecõdi</w>
+            <w>uenti</w>
+            <w>⁊</w>
+            <persName ref="#Dido">dido</persName>
+            <w norm="certa">cer <milestone unit="line" corresp="60088b06" n="2"/> ta</w>
+            <w>de</w>
+            <w>morire</w>
+            <w>ſmania</w>
+            <w>nel</w>
+            <w norm="calore">ca <milestone unit="line" corresp="04172717" n="3"/> lore</w>
+            <w>dellira.</w>
+          </s>
+          <s xml:id="s7.12.5" corresp="#l565">
+            <w>Fuggi</w>
+            <w>qͧͥnci</w>
+            <w>tosto.</w>
+          </s>
+          <s xml:id="s7.12.6" corresp="#l566">
+            <milestone unit="line" corresp="70ae369d" n="1"/>
+            <w>Pero</w>
+            <w>che</w>
+            <w>ſe</w>
+            <w>tu</w>
+            <w>aſpecti</w>
+            <w norm="laurora">lauro <milestone unit="line" corresp="1346682c" n="2"/> ra</w>
+            <w>tu</w>
+            <w>uederai</w>
+            <w>il</w>
+            <w>mare</w>
+            <w norm="turbare">turba <milestone unit="column" n="2"/>
+              <milestone unit="line" corresp="46f4514b" n="3"/> re</w>
+            <w>⁊</w>
+            <w>ardere</w>
+            <w>li</w>
+            <w>liti</w>
+            <w>cõ</w>
+            <w>facelle</w>
+            <w>⁊</w>
+            <w>cõ</w>
+            <milestone unit="line" corresp="bcacfc32" n="4"/>
+            <w>fiãme</w>
+            <w>uania</w>
+            <w>dõque</w>
+            <w>rõpi</w>
+            <w norm="ledemoranḉe">ledemo <milestone unit="line" corresp="50292f03" n="5"/>
+              ranḉe.</w>
+          </s>
+          <s xml:id="s7.12.7" corresp="#l569">
+            <w>La</w>
+            <w>femĩa</w>
+            <w>e</w>
+            <w>uaria</w>
+            <w>⁊</w>
+            <w norm="moteuole">mote <milestone unit="line" corresp="92c05675" n="1"/> uole.</w>
+          </s>
+          <s xml:id="s7.12.8" corresp="#l571">
+            <w>Subitam̃te</w>
+            <w>ſi</w>
+            <w>leua</w>
+            <persName ref="#Aeneas">Enea</persName>
+            <milestone unit="line" corresp="6b38d735" n="1"/>
+            <w>⁊</w>
+            <w>co</w>
+            <w>la</w>
+            <w>ſpada</w>
+            <w>taglia</w>
+            <w>le</w>
+            <w>catene</w>
+            <w>⁊</w>
+            <milestone unit="line" corresp="29dfaba8" n="2"/>
+            <w>le</w>
+            <w>funi</w>
+            <w>cõ</w>
+            <w>che</w>
+            <w>erano</w>
+            <w>legate</w>
+            <w>le</w>
+            <w norm="naui">na <milestone unit="line" corresp="0ec05c4d" n="3"/> ui.</w>
+          </s>
+          <s xml:id="s7.12.9" corresp="#l572">
+            <w>Et</w>
+            <w>dixe</w>
+            <w>alli</w>
+            <persName ref="#Mates-of-Aeneas">ꝯpagni.</persName>
+          </s>
+          <s xml:id="s7.12.10" corresp="#l573">
+            <w>Ohoͫͥ̃i</w>
+            <milestone unit="line" corresp="2e693de1" n="1"/>
+            <w>ueghiati</w>
+            <w>⁊</w>
+            <w>toſtam̃te</w>
+            <w>ſciolgliti</w>
+            <milestone unit="line" corresp="c45a0dc1" n="2"/>
+            <w>le</w>
+            <w>uele</w>
+            <persName ref="#Mercurius">dio</persName>
+            <w>mãdato</w>
+            <w>dal</w>
+            <w>cielo</w>
+            <milestone unit="line" corresp="eb1da6ea" n="3"/>
+            <w>ſi</w>
+            <w>cõmanda</w>
+            <w>che</w>
+            <w>la</w>
+            <w>fugga</w>
+            <w norm="ſaffrecti">ſaffrec <milestone unit="line" corresp="24568db4" n="4"/> ti.</w>
+          </s>
+          <s xml:id="s7.12.11" corresp="#l576">
+            <w>O</w>
+            <w>ſancto</w>
+            <w>dio</w>
+            <w>quale</w>
+            <w>tu</w>
+            <w>ſe</w>
+            <w>cõ</w>
+            <milestone unit="line" corresp="df246b8c" n="1"/>
+            <w>nui</w>
+            <w>benigno</w>
+            <w>⁊</w>
+            <w>aiutati</w>
+            <w>noi</w>
+            <w>ti</w>
+            <w norm="ſeguitamo">ſe <milestone unit="line" corresp="3d6ac4bd" n="2"/> guitamo</w>
+            <w>qͧͤllo</w>
+            <w>medeſmo</w>
+            <w norm="effecto">effec <milestone unit="line" corresp="27413011" n="3"/> to</w>
+            <w>unore</w>
+            <w>tucti</w>
+            <w>del</w>
+            <w>ꝑtire</w>
+            <w norm="pigliano">piglia <milestone unit="line" corresp="57c97a51" n="4"/> no</w>
+            <w>li</w>
+            <w>remi</w>
+            <w>correno</w>
+            <w>ꝑlo</w>
+            <w>mare</w>
+            <milestone unit="line" corresp="229cf953" n="5"/>
+            <w>⁊</w>
+            <w>abbandonano</w>
+            <w>li</w>
+            <w>liti.</w>
+          </s>
+        </p>
+      </div>
+      <div xml:id="p13" n="13">
+        <p xml:id="Suicide-of-Dido">
+          <s xml:id="s7.13.1" corresp="#l586">
+            <milestone unit="line" corresp="a2169017" n="1"/>
+            <w norm="Come">C <milestone unit="line" corresp="f073d889" n="2"/> ome</w>
+            <w>pͬͥmam̃te</w>
+            <w>la</w>
+            <persName ref="#Dido">reina</persName>
+            <w norm="uide">ui <milestone unit="line" corresp="a734ccc2" n="3"/> de</w>
+            <w>ſchiarire</w>
+            <w>la</w>
+            <w>luce</w>
+            <w>andœ</w>
+            <milestone unit="line" corresp="2517766f" n="4"/>
+            <w>inſu</w>
+            <w>la</w>
+            <w>rocca</w>
+            <w>⁊</w>
+            <w>uide</w>
+            <w>il</w>
+            <w>nauilio</w>
+            <milestone unit="line" corresp="f94cf77a" n="5"/>
+            <w>cõ</w>
+            <w>le</w>
+            <w>uele</w>
+            <w>tre</w>
+            <w>uolte</w>
+            <w>⁊</w>
+            <w>quactro</w>
+            <milestone unit="line" corresp="52c546b4" n="6"/>
+            <w>ſi</w>
+            <w>ꝑcoſſe</w>
+            <w>il</w>
+            <w>bel</w>
+            <w>pecto</w>
+            <w>⁊</w>
+            <w norm="ſtracciaſi">ſtraccia <milestone unit="line" corresp="def67f18" n="7"/> ſi</w>
+            <w>le</w>
+            <w>bionde</w>
+            <w>trecḉe</w>
+            <w>⁊</w>
+            <w>grida.</w>
+          </s>
+          <s xml:id="s7.13.2" corresp="#l593">
+            <w>O</w>
+            <milestone unit="line" corresp="398f56ff" n="1"/>
+            <w>citatini</w>
+            <w>andati</w>
+            <w>⁊</w>
+            <w>poͬtati</w>
+            <w>toſto</w>
+            <milestone unit="line" corresp="bb85253c" n="2"/>
+            <w>le</w>
+            <w>fiãme</w>
+            <w>⁊</w>
+            <w>ardete</w>
+            <w>il</w>
+            <w>nauilio</w>
+            <milestone unit="line" corresp="8589aca8" n="3"/>
+            <w>⁊</w>
+            <w>date</w>
+            <w>loro</w>
+            <w>delle</w>
+            <w>lance</w>
+            <w>⁊</w>
+            <w norm="ſpecḉati">ſpec <milestone unit="line" corresp="03db62cc" n="4"/> ḉati</w>
+            <w>li</w>
+            <w>remi.</w>
+          </s>
+          <s xml:id="s7.13.3" corresp="#l595">
+            <w>Oi</w>
+            <w>me</w>
+            <w>or</w>
+            <w>che</w>
+            <w>dico</w>
+            <milestone unit="line" corresp="cc82d106" n="1"/>
+            <w>io</w>
+            <w>oue</w>
+            <w>ſono</w>
+            <w>io</w>
+            <w>qual</w>
+            <w>pacḉa</w>
+            <w norm="cãbiai">cã <milestone unit="line" corresp="e63a3611" n="2"/> biai</w>
+            <w>la</w>
+            <w>m̃te.</w>
+          </s>
+          <s xml:id="s7.13.4" corresp="#l596">
+            <w>Odiſauẽtorata</w>
+            <milestone unit="line" corresp="0d3594e8" n="1"/>
+            <persName ref="#Dido">dido</persName>
+            <w>ora</w>
+            <w>ti</w>
+            <w>toccano</w>
+            <w>li</w>
+            <w>crudeli</w>
+            <milestone unit="line" corresp="b43f6ae1" n="2"/>
+            <w>fati.</w>
+          </s>
+          <s xml:id="s7.13.5" corresp="#l600">
+            <w>Nõ</w>
+            <w>potea</w>
+            <w>io</w>
+            <w>il</w>
+            <persName ref="#Iulo">figliolu</persName>> <milestone unit="line" corresp="6d7cffc4"
+              n="1"/>
+            <w>uccidere</w>
+            <w>⁊</w>
+            <w>ponere</w>
+            <w>Aſcanio</w>
+            <w>ĩ</w>
+            <milestone unit="line" corresp="4d953d48" n="2"/>
+            <w>ſu</w>
+            <w>la</w>
+            <w>menſa</w>
+            <w>del</w>
+            <w>padre</w>
+            <w>chel</w>
+            <milestone unit="line" corresp="22ab6161" n="3"/>
+            <w>mãgiaſſe</w>
+            <w>o</w>
+            <w>amẽdœ</w>
+            <w>ardere</w>
+            <milestone unit="line" corresp="a5174572" n="4"/>
+            <w>⁊</w>
+            <w>me</w>
+            <w>ſopͬͣ</w>
+            <w>le</w>
+            <w>fiãme</w>
+            <w>gictarͤ.</w>
+          </s>
+          <s xml:id="s7.13.6" corresp="#l603">
+            <w>Ma</w>
+            <milestone unit="folio" n="19v"/>
+            <pb
+              facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8433319z/f46/full/full/0/default.jpg"
+              n="19v"/>
+            <milestone unit="column" n="1"/>
+            <milestone unit="line" corresp="848ea54f" n="1"/>
+            <w>la</w>
+            <w>fortuna</w>
+            <w>ſtaua</w>
+            <w>ĩ</w>
+            <w>dubio</w>
+            <w>de</w>
+            <w>la</w>
+            <milestone unit="line" corresp="5e9b223e" n="2"/>
+            <w>bactaglia.</w>
+          </s>
+          <s xml:id="s8.13.7" corresp="#l607">
+            <w>O</w>
+            <w>ſole</w>
+            <w>tu</w>
+            <w>che</w>
+            <w>cerchi</w>
+            <milestone unit="line" corresp="bce8b328" n="1"/>
+            <w>tucte</w>
+            <w>le</w>
+            <w>parti</w>
+            <w>de</w>
+            <w>la</w>
+            <w>tͤra</w>
+            <w>cõ</w>
+            <w>le</w>
+            <w>ɨ</w>
+            <milestone unit="line" corresp="72085059" n="2"/>
+            <w>tue</w>
+            <w>fiãme</w>
+            <w>⁊</w>
+            <w>tu</w>
+            <persName ref="#Iuno">Juno</persName>
+            <w>ĩtͬͤpͥta</w>
+            <milestone unit="line" corresp="4df1bbd2" n="3"/>
+            <w>⁊</w>
+            <w>ꝯſenteuole</w>
+            <w>di</w>
+            <w>qͧͤste</w>
+            <w>coſe</w>
+            <w>fa</w>
+            <milestone unit="line" corresp="05be0052" n="4"/>
+            <w>che</w>
+            <w>colui</w>
+            <w>ueggia</w>
+            <w>degna</w>
+            <w norm="moͬte">moͬ <milestone unit="line" corresp="d51cbfdc" n="5"/> te</w>
+            <w>deſuoi</w>
+            <w>⁊</w>
+            <w>nõ</w>
+            <w>uſi</w>
+            <w norm="ladeſiderata">ladeſide <milestone unit="line" corresp="b3463da8" n="6"/>
+              rata</w>
+            <w>pace.</w>
+          </s>
+          <s xml:id="s8.13.8" corresp="#l620">
+            <w>Ma</w>
+            <w>ꝓfondalo</w>
+            <w>ſi</w>
+            <w>chͤ</w>
+            <milestone unit="line" corresp="4cec20d8" n="1"/>
+            <w>rimagnia</w>
+            <w>diſocteͬrato</w>
+            <w>ĩ</w>
+            <w>meḉo</w>
+            <milestone unit="line" corresp="d8eb1614" n="2"/>
+            <w>del</w>
+            <w>lito.</w>
+          </s>
+          <s xml:id="s8.13.9" corresp="#l621">
+            <w>Queſto</w>
+            <w>pͬͤgho</w>
+            <w>queſta</w>
+            <milestone unit="line" corresp="8ce8b182" n="1"/>
+            <w>ultima</w>
+            <w>uoce</w>
+            <w>cõ</w>
+            <w>ſangue</w>
+            <w>io</w>
+            <w>ɨ</w>
+            <milestone unit="line" corresp="1979e9a5" n="2"/>
+            <w>ſpãdo.</w>
+          </s>
+          <s xml:id="s8.13.10" corresp="#l614">
+            <w>Et</w>
+            <w>ſe</w>
+            <w>ifati</w>
+            <w>di</w>
+            <persName ref="#Iuppiter">Joue</persName>
+            <w norm="ſerbano">ſer <milestone unit="line" corresp="2d8410ae" n="1"/> bano</w>
+            <w>lui.</w>
+          </s>
+          <s xml:id="s8.13.11" corresp="#l622">
+            <w>O</w>
+            <persName ref="#Tyrios">tyry</persName>
+            <w>aſſagiate</w>
+            <milestone unit="line" corresp="733979b4" n="1"/>
+            <w>cõ</w>
+            <w>gueͬra</w>
+            <w>ogni</w>
+            <w>genͤͬatiœ̃</w>
+            <w>di</w>
+            <w norm="colui">co <milestone unit="line" corresp="ef7971a0" n="2"/> lui</w>
+            <w>li</w>
+            <w>liti</w>
+            <w>ꝯbacteno</w>
+            <w>nͦ̾ͭri</w>
+            <w>cõli</w>
+            <w>ɨ</w>
+            <milestone unit="line" corresp="82045094" n="3"/>
+            <w>ſoi</w>
+            <w>liti</w>
+            <w>⁊</w>
+            <w>li</w>
+            <w>nͦ̾ͭri</w>
+            <w>mari</w>
+            <w>cioe</w>
+            <w>naui</w>
+            <milestone unit="line" corresp="4b4855fb" n="4"/>
+            <w>co</w>
+            <w>le</w>
+            <w>ſue</w>
+            <w>naui</w>
+            <w>⁊</w>
+            <w>larme</w>
+            <w>noſtre</w>
+            <milestone unit="line" corresp="bc37ca7c" n="5"/>
+            <w>abbiano</w>
+            <w>guẽra</w>
+            <w>colle</w>
+            <w>ſue</w>
+            <w>⁊</w>
+            <w>li</w>
+            <milestone unit="line" corresp="ca7d319d" n="6"/>
+            <w>nͦ̾ͭri</w>
+            <w>ꝯbacteno</w>
+            <w>cõli</w>
+            <w>ſuoi.</w>
+          </s>
+          <s xml:id="s8.13.12" corresp="#l630">
+            <w norm="Queſte">Que <milestone unit="line" corresp="f4cf99b4" n="1"/> ſte</w>
+            <w>coſe</w>
+            <w>dixe</w>
+            <w>⁊</w>
+            <w>uolgea</w>
+            <w norm="lanimo">lani <milestone unit="line" corresp="2ba67d56" n="2"/> mo</w>
+            <w>ĩ</w>
+            <w>tucte</w>
+            <w>ꝑti</w>
+            <w>cercãdo</w>
+            <w>di</w>
+            <w norm="rõpere">rõ <milestone unit="line" corresp="9b8cd324" n="3"/> pere</w>
+            <w>la</w>
+            <w>luce</w>
+            <w>il</w>
+            <w>piu</w>
+            <w>toſto</w>
+            <w norm="chella">chel <milestone unit="line" corresp="501d3818" n="4"/> la</w>
+            <w>poteſſe.</w>
+          </s>
+          <s xml:id="s8.13.13" corresp="#l632">
+            <w>Allora</w>
+            <w>breuem̃te</w>
+            <milestone unit="line" corresp="af56ec1e" n="1"/>
+            <w>a</w>
+            <w>tarciena</w>
+            <w>balia</w>
+            <w>che</w>
+            <w>fo</w>
+            <w>di</w>
+            <persName ref="#Sychaei">Sicheo</persName>
+            <w>fauella.</w>
+          </s>
+          <s xml:id="s8.13.14" corresp="#l634">
+            <w>Ocara</w>
+            <persName ref="#Nutrix">balia"</persName>
+            <w norm="mena">me <milestone unit="line" corresp="bcc6c583" n="1"/> na</w>
+            <w>qua</w>
+            <persName ref="#Anna">anna</persName>
+            <w>mia</w>
+            <w>ſorocchia</w>
+            <milestone unit="line" corresp="7e1e5fac" n="2"/>
+            <w>⁊</w>
+            <w>di</w>
+            <w>che</w>
+            <w>ſaffrecti</w>
+            <w>di</w>
+            <w norm="bagnyare">bagnya <milestone unit="line" corresp="92f0162a" n="3"/> re</w>
+            <w>il</w>
+            <w>corpo</w>
+            <w>cõ</w>
+            <w>acqua</w>
+            <w>di</w>
+            <w>fiumͤ</w>
+            <milestone unit="line" corresp="6e613d96" n="4"/>
+            <w>⁊</w>
+            <w>meni</w>
+            <w>ſeco</w>
+            <w>le</w>
+            <w>pecore</w>
+            <w>ali</w>
+            <w norm="ſacͬͥficy">ſa <milestone unit="line" corresp="55eab2bd" n="5"/> cͬͥficy</w>
+            <w>chella</w>
+            <w>ſae</w>
+            <w>⁊</w>
+            <w>coſi</w>
+            <w>uegna.</w>
+          </s>
+          <s xml:id="s8.13.15" corresp="#l637">
+            <milestone unit="line" corresp="c9fc9d45" n="1"/>
+            <w>Et</w>
+            <w>tu</w>
+            <w>ſteſſa</w>
+            <w>cuopri</w>
+            <w>le</w>
+            <w>pietoſe</w>
+            <milestone unit="line" corresp="e916e705" n="2"/>
+            <w>tẽpie</w>
+            <w>cõ</w>
+            <w>la</w>
+            <w>benda.</w>
+          </s>
+          <s xml:id="s8.13.16" corresp="#l638">
+            <w>Date</w>
+            <w>li</w>
+            <w norm="ſacͬͥficy">ſa <milestone unit="line" corresp="fbca6b26" n="1"/> cͬͥficy</w>
+            <w>a</w>
+            <persName ref="#Iuppiter">Joue.</persName>
+          </s>
+          <s xml:id="s8.13.17" corresp="#l638">
+            <w>Jo</w>
+            <w>apparecchiai</w>
+            <milestone unit="line" corresp="30863acc" n="1"/>
+            <w>ĩꝯmĩciare</w>
+            <w>⁊</w>
+            <w>o</w>
+            <w>uolõtate</w>
+            <w>de</w>
+            <w norm="ꝯpiere">ꝯ <milestone unit="line" corresp="803c3650" n="2"/>
+              <milestone unit="column" n="2"/> piere</w>
+            <w>⁊</w>
+            <w>di</w>
+            <w>ponere</w>
+            <w>ale</w>
+            <w>cure</w>
+            <w norm="fine">fi <milestone unit="line" corresp="035b8132" n="3"/> ne.</w>
+          </s>
+          <s xml:id="s8.13.18" corresp="#l641">
+            <persName ref="#Nutrix">Quella"</persName>
+            <w>corre</w>
+            <w>a</w>
+            <w>fare</w>
+            <w>li</w>
+            <w norm="cõmãdam̃ti">cõ <milestone unit="line" corresp="2cd28b38" n="1"/>
+              mãdam̃ti.</w>
+          </s>
+          <s xml:id="s8.13.19" corresp="#l642">
+            <w>La</w>
+            <w>diſauentorata</w>
+            <milestone unit="line" corresp="cc760458" n="1"/>
+            <persName ref="#Dido">dido</persName>
+            <w>uogliẽdo</w>
+            <w>la</w>
+            <w>ſanguinoſa</w>
+            <milestone unit="line" corresp="09d0c575" n="2"/>
+            <w>ſpada</w>
+            <w>bagnate</w>
+            <w>legote</w>
+            <w>de</w>
+            <milestone unit="line" corresp="69d225e8" n="3"/>
+            <w>trimãte</w>
+            <w>macchie</w>
+            <w>⁊</w>
+            <w>palida</w>
+            <milestone unit="line" corresp="dcca212a" n="4"/>
+            <w>ꝑ</w>
+            <w>la</w>
+            <w>furioſa</w>
+            <w>morte.</w>
+          </s>
+          <s xml:id="s8.13.20" corresp="#l645">
+            <w>Passa</w>
+            <w>le</w>
+            <milestone unit="line" corresp="85bcd1d9" n="1"/>
+            <w>porte</w>
+            <w>dẽtro</w>
+            <w>della</w>
+            <w>caſa</w>
+            <w>⁊</w>
+            <w>ſalio</w>
+            <milestone unit="line" corresp="5fd1806b" n="2"/>
+            <w>furioſa</w>
+            <w>ſuſo</w>
+            <w>nel</w>
+            <w>lalto</w>
+            <w norm="palacḉo">palac <milestone unit="line" corresp="0f4130e6" n="3"/> ḉo</w>
+            <w>⁊</w>
+            <w>la</w>
+            <w>ſpada</w>
+            <w>di</w>
+            <persName ref="#Aeneas">Enea</persName>
+            <w>dono</w>
+            <milestone unit="line" corresp="e6d69b60" n="4"/>
+            <w>nõ</w>
+            <w>dõmandato</w>
+            <w>ꝑ</w>
+            <w>uſarla</w>
+            <w norm="qui">q <milestone unit="line" corresp="3271ea48" n="5"/> ui</w>
+            <w>traſſe</w>
+            <w>del</w>
+            <w>fodero.</w>
+          </s>
+          <s xml:id="s8.13.21" corresp="#l648">
+            <w>Poy</w>
+            <w>che</w>
+            <milestone unit="line" corresp="5bdd27a7" n="1"/>
+            <w>uide</w>
+            <w>le</w>
+            <w>ueſtim̃ta</w>
+            <w>troyane</w>
+            <w>⁊</w>
+            <milestone unit="line" corresp="9f05aef0" n="2"/>
+            <w>il</w>
+            <w>cognoſciuto</w>
+            <w>lecto.</w>
+          </s>
+          <s xml:id="s8.13.22" corresp="#l649">
+            <w>Uno</w>
+            <milestone unit="line" corresp="4fd512c8" n="1"/>
+            <w>poco</w>
+            <w>cõ</w>
+            <w>lacͬͥme</w>
+            <w>⁊</w>
+            <w>cõ</w>
+            <w>lanimo</w>
+            <w norm="aſpectato">aſ <milestone unit="line" corresp="e3142ec3" n="2"/> pectato</w>
+            <w>giacque</w>
+            <w>ĩ</w>
+            <w>ſu</w>
+            <w>lo</w>
+            <w>lecto</w>
+            <milestone unit="line" corresp="d7a604f2" n="3"/>
+            <w>⁊</w>
+            <w>dixe</w>
+            <w>nouiſſime</w>
+            <w>parole.</w>
+          </s>
+          <s xml:id="s8.13.23" corresp="#l651">
+            <w>O</w>
+            <milestone unit="line" corresp="ec89293c" n="1"/>
+            <w>dolci</w>
+            <w>ſpoglie</w>
+            <w>pͬͤndete</w>
+            <w>queſta</w>
+            <milestone unit="line" corresp="1e6a437e" n="2"/>
+            <w>ãiͫa</w>
+            <w>⁊</w>
+            <w>traetimi</w>
+            <w>di</w>
+            <w>qͧͤſti</w>
+            <w>pẽſieri.</w>
+          </s>
+          <s xml:id="s8.13.24" corresp="#l653">
+            <milestone unit="line" corresp="d1fa3e35" n="1"/>
+            <w>Jo</w>
+            <w>uissi</w>
+            <w>⁊</w>
+            <w>e</w>
+            <w>coͫpiuto</w>
+            <w>il</w>
+            <w>cuorſo</w>
+            <milestone unit="line" corresp="53d7e4a8" n="2"/>
+            <w>che</w>
+            <w>fortuna</w>
+            <w>mi</w>
+            <w>diedi</w>
+            <w>⁊</w>
+            <w>hora</w>
+            <milestone unit="line" corresp="482c8475" n="3"/>
+            <w>la</w>
+            <w>grãde</w>
+            <w>Imagine</w>
+            <w>dime</w>
+            <w norm="andera">an <milestone unit="line" corresp="0f7b2ed8" n="4"/> dera</w>
+            <w>ſocto</w>
+            <w>tͤra.</w>
+          </s>
+          <s xml:id="s8.13.25" corresp="#l655">
+            <w>Cartagine</w>
+            <placeName ref="#Carthage">Citade</placeName>
+            <milestone unit="line" corresp="db11e6f5" n="1"/>
+            <w>kiareſſima</w>
+            <w>hedificai</w>
+            <w>⁊</w>
+            <milestone unit="line" corresp="5abadb5f" n="2"/>
+            <w>le</w>
+            <w>mura</w>
+            <w>dessa</w>
+            <w>uidi.</w>
+          </s>
+          <s xml:id="s8.13.26" corresp="#l656">
+            <w>Jo</w>
+            <w norm="uendicata">uen <milestone unit="line" corresp="8e65eebd" n="1"/> dicata</w>
+            <w>il</w>
+            <w>marito</w>
+            <w>riceuecti</w>
+            <milestone unit="line" corresp="c9a47312" n="2"/>
+            <w>pene</w>
+            <w>dal</w>
+            <w>fratello</w>
+            <w norm="inimicheuole">inimiche <milestone unit="line" corresp="980102e4" n="3"/>
+              uole.</w>
+          </s>
+          <s xml:id="s8.13.27" corresp="#l657">
+            <w>Oy</w>
+            <w>me</w>
+            <w>troppo</w>
+            <w>felice.</w>
+          </s>
+          <s xml:id="s8.13.28" corresp="#l657">
+            <milestone unit="line" corresp="01910779" n="1"/>
+            <w>Oy</w>
+            <w>me</w>
+            <w>bene</w>
+            <w>auentorata</w>
+            <w>ſe</w>
+            <milestone unit="line" corresp="79c4e1a4" n="2"/>
+            <w>ſolamͤ̃te</w>
+            <w>le</w>
+            <w>naui</w>
+            <w>troyane</w>
+            <milestone unit="line" corresp="e35b32c5" n="3"/>
+            <w>nõ</w>
+            <w>auessero</w>
+            <w>mai</w>
+            <w>toccate</w>
+            <w>li</w>
+            <milestone unit="line" corresp="f134ec5d" n="4"/>
+            <w>nͦ̾ͭri</w>
+            <w>liti.</w>
+          </s>
+          <s xml:id="s8.13.29" corresp="#l659">
+            <w>Et</w>
+            <w>la</w>
+            <w>bocca</w>
+            <w>ficta</w>
+            <w>ĩ</w>
+            <milestone unit="line" corresp="ee42cc68" n="1"/>
+            <w>ſu</w>
+            <w>lo</w>
+            <w>lecto</w>
+            <w>timẽdo</w>
+            <w>dixe.</w>
+          </s>
+          <s xml:id="s8.13.30" corresp="#l659">
+            <w>Mo</w>
+            <milestone unit="line" corresp="da4a936a" n="1"/>
+            <w>riamo</w>
+            <w>nõ</w>
+            <w>uendicata</w>
+            <w>or</w>
+            <w>ɨ</w>
+            <milestone unit="folio" n="20r"/>
+            <pb
+              facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8433319z/f47/full/full/0/default.jpg"
+              n="20r"/>
+            <milestone unit="column" n="1"/>
+            <milestone unit="line" corresp="e32afab6" n="2"/>
+            <w>moriamo</w>
+            <w>dixe</w>
+            <w>cosi</w>
+            <w>delecta</w>
+            <w norm="andare">an <milestone unit="line" corresp="03d66c57" n="3"/> dare</w>
+            <w>ſocto</w>
+            <w>lombre</w>
+            <w>el</w>
+            <w>crodele</w>
+            <milestone unit="line" corresp="8f4e135b" n="4"/>
+            <persName ref="#Aeneas">enea</persName>
+            <w>ſcorga</w>
+            <w>qͧͤſto</w>
+            <w>fuoco</w>
+            <w>del</w>
+            <w norm="mare">ma <milestone unit="line" corresp="cfbffe3f" n="5"/> re</w>
+            <w>⁊</w>
+            <w>porti</w>
+            <w>ſico</w>
+            <w>li</w>
+            <w>auguri</w>
+            <w>della</w>
+            <milestone unit="line" corresp="54a9b0ab" n="6"/>
+            <w>nͦ̾ͭra</w>
+            <w>morte.</w>
+          </s>
+          <s xml:id="s9.13.31" corresp="#l663">
+            <persName ref="#Dido">Ella</persName>
+            <w>auea</w>
+            <w>decto</w>
+            <w norm="qͧͤſto">qͧͤ <milestone unit="line" corresp="54f3edc2" n="1"/> ſto</w>
+            <w>⁊</w>
+            <w>le</w>
+            <persName ref="#Mates-of-Dido">cõpagne</persName>
+            <w>poſero</w>
+            <w>mẽte</w>
+            <milestone unit="line" corresp="b180b089" n="2"/>
+            <w>ꝯ</w>
+            <w>colei</w>
+            <w>ueggiono</w>
+            <w>caduta</w>
+            <w>ſopra</w>
+            <milestone unit="line" corresp="e6d1e29e" n="3"/>
+            <w>la</w>
+            <w>ſpada</w>
+            <w>⁊</w>
+            <w>ueggono</w>
+            <w>ſpumoſa</w>
+            <milestone unit="line" corresp="63a364aa" n="4"/>
+            <w>la</w>
+            <w>ſpada</w>
+            <w>de</w>
+            <w>ſangue.</w>
+          </s>
+          <s xml:id="s9.13.32" corresp="#l665">
+            <w>Et</w>
+            <w>ſparte</w>
+            <milestone unit="line" corresp="bbc660ed" n="1"/>
+            <w>le</w>
+            <w>mani</w>
+            <w>bactẽdoſi</w>
+            <w>apalme</w>
+            <w>uae</w>
+            <milestone unit="line" corresp="46b54189" n="2"/>
+            <w>il</w>
+            <w>grido</w>
+            <w>al</w>
+            <w>cielo</w>
+            <w>dibacteſi</w>
+            <w norm="tucta">tuc <milestone unit="line" corresp="24965707" n="3"/> ta</w>
+            <w>la</w>
+            <w>citade</w>
+            <w>⁊</w>
+            <w>tucti</w>
+            <w norm="diſtridiſcono">diſtridiſco <milestone unit="line" corresp="59daf7e8" n="4"/>
+              no.</w>
+          </s>
+        </p>
+        <p xml:id="Yris-cuts-the-hair-of-Dido-leaving-her-to-die">
+          <s xml:id="s9.13.33" corresp="#l672">
+            <w>Uiene</w>
+            <w>la</w>
+            <persName ref="#Anna">ſerocchia</persName>
+            <w>tucta</w>
+            <milestone unit="line" corresp="4e1556cd" n="1"/>
+            <w>ſquaͬḉata</w>
+            <w>cõ</w>
+            <w>lunghie</w>
+            <w>⁊</w>
+            <w norm="corrẽdo">corrẽ <milestone unit="line" corresp="a3475427" n="2"/> do</w>
+            <w>ꝑ</w>
+            <w>meḉo</w>
+            <w>coſtoro</w>
+            <w>chiama</w>
+            <w norm="ꝑnome">ꝑno <milestone unit="line" corresp="523bcb78" n="3"/> me</w>
+            <w>qͧͤlla</w>
+            <w>che</w>
+            <w>moria.</w>
+          </s>
+          <s xml:id="s9.13.34" corresp="#l675">
+            <w>Oyme</w>
+            <w norm="ſerocchia">ſe <milestone unit="line" corresp="b17f05f3" n="1"/> rocchia</w>
+            <w>or</w>
+            <w>ꝑche</w>
+            <w>mai</w>
+            <w>tu</w>
+            <w>ĩgnata.</w>
+            <milestone unit="line" corresp="8947df39" n="2"/>
+            <w>an</w>
+          </s>
+          <s xml:id="s9.13.35" corresp="#l676">
+            <milestone unit="line" corresp="e2f1cd2a" n="1"/>
+            <w>Queſto</w>
+            <w>fuoco</w>
+            <w>⁊</w>
+            <w>qͧͤsti</w>
+            <w>altari</w>
+            <w>et</w>
+            <milestone unit="line" corresp="fb8e7ac8" n="2"/>
+            <w>qͧͤsto</w>
+            <w>legnagio</w>
+            <w>me</w>
+            <w>apparecchia</w>
+            <milestone unit="line" corresp="486566b0" n="3"/>
+            <w>uano</w>
+            <w>qͧͤſte</w>
+            <w>coſe.</w>
+          </s>
+          <s xml:id="s9.13.36" corresp="#l676">
+            <w>Oy</w>
+            <w norm="abbanonata">abbanona <milestone unit="line" corresp="14ceaf6e" n="1"/> ta</w>
+            <w>che</w>
+            <w>adomãdero</w>
+            <w>io</w>
+            <w norm="pͬͥmam̃te">pͬͥmam̃ <milestone unit="line" corresp="6d0e2aa3" n="2"/> te</w>
+            <w>tu</w>
+            <w>morẽdo</w>
+            <w>ora</w>
+            <w>me</w>
+            <w>tua</w>
+            <w norm="ſerocchia">ſeroc <milestone unit="line" corresp="9e014c19" n="3"/> chia</w>
+            <w>ꝑ</w>
+            <w>ꝯpagina</w>
+            <w>ſchifaſti.</w>
+          </s>
+          <s xml:id="s9.13.37" corresp="#l677">
+            <w>A</w>
+            <milestone unit="line" corresp="c8588fe0" n="1"/>
+            <w>qͧͤlle</w>
+            <w>medeſime</w>
+            <w>fortune</w>
+            <w>ma</w>
+            <w norm="auiſſe">a <milestone unit="line" corresp="1cc68f1a" n="2"/> uiſſe</w>
+            <w>tu</w>
+            <w>chiamata</w>
+            <w>qͧͤllo</w>
+            <w norm="mideſimo">mide <milestone unit="line" corresp="fc19c3a8" n="3"/> ſimo</w>
+            <w>dolore</w>
+            <w>a</w>
+            <w>qͧͤlla</w>
+            <w>mideſima</w>
+            <milestone unit="line" corresp="0cf3067b" n="4"/>
+            <w>hora</w>
+            <w>qͧͤl</w>
+            <w>ferro</w>
+            <w>ce</w>
+            <w>ne</w>
+            <w>aueſſeno</w>
+            <milestone unit="line" corresp="41c6cc45" n="5"/>
+            <w>portate</w>
+            <w>ambe</w>
+            <w>due</w>
+            <w>cõ</w>
+            <w>qͧͤſte</w>
+            <w>ma</w>
+            <milestone unit="line" corresp="8d464ead" n="6"/>
+            <w>ꝯpoſi</w>
+            <w>queſto</w>
+            <w>lignagio</w>
+            <w>⁊</w>
+            <w>cõ</w>
+            <w>la</w>
+            <milestone unit="line" corresp="800df4e1" n="7"/>
+            <w>mia</w>
+            <w>uoce</w>
+            <w>chiamai</w>
+            <w>li</w>
+            <w>dij</w>
+            <w>de</w>
+            <w>la</w>
+            <milestone unit="line" corresp="7b9d662d" n="8"/>
+            <w>pͣͭria.</w>
+          </s>
+          <s xml:id="s9.13.38" corresp="#l685">
+            <w>Et</w>
+            <w>coſi</w>
+            <w>decto</w>
+            <w norm="abracciando">abraccian <milestone unit="line" corresp="21ee9952" n="1"/> do</w>
+            <w>la</w>
+            <persName ref="#Dido">ſerocchia</persName>
+            <w>meḉa</w>
+            <w>morta</w>
+            <milestone unit="line" corresp="5880b23c" n="2"/>
+            <w>nel</w>
+            <w>grẽmo</w>
+            <w>la</w>
+            <w>ſi</w>
+            <w>recaua</w>
+            <w>⁊</w>
+            <w>con</w>
+            <milestone unit="line" corresp="6f7f21c9" n="3"/>
+            <w>piãto</w>
+            <w>la</w>
+            <w>cõfortaua</w>
+            <w>⁊</w>
+            <w>lo</w>
+            <w>oſcuro</w>
+            <milestone unit="column" n="2"/>
+            <milestone unit="line" corresp="b0861f55" n="4"/>
+            <w>ſangue</w>
+            <w>cole</w>
+            <w>ueſtim̃ta</w>
+            <w norm="aſciugaua">aſciuga <milestone unit="line" corresp="6ec2900a" n="5"/> ua</w>
+            <w>qͧͤlla</w>
+            <w>graue</w>
+            <w>ſforḉandoſi</w>
+            <w>di</w>
+            <milestone unit="line" corresp="3be24b04" n="6"/>
+            <w>leuare</w>
+            <w>li</w>
+            <w>occhi</w>
+            <w>ĩ</w>
+            <w>alto</w>
+            <w>uẽne</w>
+            <w norm="meno">me <milestone unit="line" corresp="e32d3911" n="7"/> no</w>
+            <w>⁊</w>
+            <w>la</w>
+            <w>piaga</w>
+            <w>ſtridie</w>
+            <w>nel</w>
+            <w norm="pecto">pec <milestone unit="line" corresp="f03055fe" n="8"/> to</w>
+            <w>tre</w>
+            <w>uolte</w>
+            <w>ſforḉãdoſe</w>
+            <w>ſi</w>
+            <w>leuo</w>
+            <milestone unit="line" corresp="bb4db215" n="9"/>
+            <w>ꝑ</w>
+            <w>uno</w>
+            <w>ſobbitu</w>
+            <w>⁊</w>
+            <w>tre</w>
+            <w>uolte</w>
+            <w norm="ricadde">ri <milestone unit="line" corresp="98e44582" n="10"/> cadde</w>
+            <w>ĩ</w>
+            <w>ſu</w>
+            <w>lulecto</w>
+            <w>⁊</w>
+            <w>collocchi</w>
+            <milestone unit="line" corresp="c27ad893" n="11"/>
+            <w>ſuariãdo</w>
+            <w>cercœ</w>
+            <w>la</w>
+            <w>luce</w>
+            <w>del</w>
+            <w norm="cielo">cie <milestone unit="line" corresp="f42f92d8" n="12"/> lo</w>
+            <w>⁊</w>
+            <w>poy</w>
+            <w>che</w>
+            <w>la</w>
+            <w>trouœ</w>
+            <w>pianſe.</w>
+          </s>
+          <s xml:id="s9.13.39" corresp="#l693">
+            <milestone unit="line" corresp="197e40de" n="1"/>
+            <w>Allora</w>
+            <w>la</w>
+            <w>õipotẽte</w>
+            <persName ref="#Iuno">Juno</persName>
+            <w norm="auẽdo">auẽ <milestone unit="line" corresp="81376482" n="2"/> do</w>
+            <w>miſericordia</w>
+            <w>del</w>
+            <w>lungo</w>
+            <w norm="dolore">do <milestone unit="line" corresp="e8a0b7d6" n="3"/> lore</w>
+            <w>⁊</w>
+            <w>dela</w>
+            <w>graue</w>
+            <w>morte</w>
+            <w>che</w>
+            <milestone unit="line" corresp="4cf37afa" n="4"/>
+            <persName ref="#Dido">dido</persName>
+            <w>facea</w>
+            <w>mando</w>
+            <w>dal</w>
+            <w>cielo</w>
+            <milestone unit="line" corresp="4942a1a8" n="5"/>
+            <w>la</w>
+            <w>dea</w>
+            <persName ref="#Iris">Yris</persName>
+            <w>che</w>
+            <w>lãiͫa</w>
+            <w>chera</w>
+            <w>ĩ</w>
+            <milestone unit="line" corresp="a06d82a8" n="6"/>
+            <w>bactaglia</w>
+            <w>dal</w>
+            <w>corpo</w>
+            <w>partiſſe</w>
+            <w>⁊</w>
+            <milestone unit="line" corresp="a8bb5499" n="7"/>
+            <w>diſſolueſſe</w>
+            <w>icongiunti</w>
+            <w>mẽbri.</w>
+          </s>
+          <s xml:id="s9.13.40" corresp="#l696">
+            <milestone unit="line" corresp="1282b1d9" n="1"/>
+            <w>Imꝑo</w>
+            <w>che</w>
+            <w>qͧͤlla</w>
+            <w>nõ</w>
+            <w>ꝑiua</w>
+            <w>ꝑ</w>
+            <w>fato</w>
+            <milestone unit="line" corresp="beefc317" n="2"/>
+            <w>ne</w>
+            <w>ꝑ</w>
+            <w>meritata</w>
+            <w>morte.</w>
+          </s>
+          <s xml:id="s9.13.41" corresp="#l698">
+            <w>Et</w>
+            <persName ref="#Proserpina">Proſerpina</persName>
+            <milestone unit="line" corresp="3c9dc1c6" n="1"/>
+            <w>nõ</w>
+            <w>lauea</w>
+            <w>ancora</w>
+            <w>tolto</w>
+            <milestone unit="line" corresp="a634db63" n="2"/>
+            <w>il</w>
+            <w>biondo</w>
+            <w>cappello</w>
+            <w>de</w>
+            <w>la</w>
+            <w>teſta</w>
+            <milestone unit="line" corresp="9fb77c1b" n="3"/>
+            <w>⁊</w>
+            <w>il</w>
+            <w>capo</w>
+            <w>auea</w>
+            <w>daͫpnato</w>
+            <w>ĩ</w>
+            <w>qͧͤlla</w>
+            <milestone unit="line" corresp="b5fecf7b" n="4"/>
+            <w>ꝑte</w>
+            <w>de</w>
+            <w>li</w>
+            <w>inferno</w>
+            <w>doue</w>
+            <w>eſtyge</w>
+            <milestone unit="line" corresp="d88f1187" n="5"/>
+            <w>dũque</w>
+            <w>Yris</w>
+            <w>roſſa</w>
+            <w>cõgialle</w>
+            <w>pẽne</w>
+            <milestone unit="line" corresp="2f814d38" n="6"/>
+            <w>trahendo</w>
+            <w>ĩſe</w>
+            <w>mille</w>
+            <w>uarij</w>
+            <w norm="colori">colo <milestone unit="line" corresp="7a1f8473" n="7"/> ri</w>
+            <w>eſſendo</w>
+            <w>uſole</w>
+            <w>ꝯͭͬͣrio</w>
+            <w>⁊</w>
+            <w>ſopra</w>
+            <milestone unit="line" corresp="c6037aec" n="8"/>
+            <w>il</w>
+            <w>capo</w>
+            <w>di</w>
+            <persName ref="#Dido">dido</persName>
+            <w>ſi</w>
+            <w>poſe.</w>
+          </s>
+          <s xml:id="s9.13.42" corresp="#l702">
+            <w>Dicẽdo</w>
+            <milestone unit="line" corresp="9bf68eb7" n="1"/>
+            <w>io</w>
+            <w>porto</w>
+            <w>qͧͤſto</w>
+            <w>ſãͭo</w>
+            <w>cappello</w>
+            <w>adite</w>
+            <milestone unit="line" corresp="b90198b1" n="2"/>
+            <w>⁊</w>
+            <w>da</w>
+            <w>qͧͤſto</w>
+            <w>corpo</w>
+            <w>o</w>
+            <w>ãiͫa</w>
+            <w>ti</w>
+            <w>ſcilglio</w>
+            <milestone unit="line" corresp="be0554c5" n="3"/>
+            <w>⁊</w>
+            <w>coſi</w>
+            <w>decto</w>
+            <w>cola</w>
+            <w>mano</w>
+            <w>dextra</w>
+            <milestone unit="line" corresp="2444ab6a" n="4"/>
+            <w>taglia</w>
+            <w>il</w>
+            <w>cappello.</w>
+          </s>
+          <s xml:id="s9.13.43" corresp="#l704">
+            <w>Allora</w>
+            <w>ogni</w>
+            <milestone unit="line" corresp="1245a7d6" n="1"/>
+            <w>calore</w>
+            <w>ĩſieme</w>
+            <w>diſcorle</w>
+            <w>⁊</w>
+            <w norm="neli">ne <milestone unit="line" corresp="b3917e5b" n="2"/> li</w>
+            <w>uͤ̃ti</w>
+            <w>la</w>
+            <w>uita</w>
+            <w>ſe</w>
+            <w>ne</w>
+            <w>uæ.</w>
+          </s>
+        </p>
+      </div>
+      <div xml:id="f0">
+        <ab>
+          <s xml:id="f0.0">
+            <milestone unit="line" corresp="603b7b2a"/>
+            <w>Qui</w>
+            <milestone unit="line" corresp="90abadfd"/>
+            <w>finiſce</w>
+            <w>il</w>
+            <w>quaͬto</w>
+            <w>libro</w>
+            <w>delo</w>
+            <w norm="Eneyda">E <milestone unit="line" corresp="1fc95c5e"/> neyda</w>
+            <w>di</w>
+            <w>Uirgilio.</w>
+          </s>
+        </ab>
+      </div>
+    </body>
+  </text>
+</TEI>
